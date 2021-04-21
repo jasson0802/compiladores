@@ -1,0 +1,123 @@
+package analizadores;
+
+import java_cup.runtime.*;
+
+//PARSER 
+parser code
+{://Codigo visible
+    
+    public void syntax_error(Symbol s){
+        System.out.println("Error R de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+    }
+
+    public void unrecovered_syntax_error(Symbol s) throws java.lang.Exception{ 
+        System.out.println("Error NR de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+    }
+
+:}
+
+action code
+{://Codigo de usuario
+    String tmp="";
+:}
+
+
+terminal String ID,ENTERO,CADENA,INT1,CHAR1,PUB,PRI,VOI, PRINT;
+terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,LLAVEIZQ,LLAVEDER,PARENIZQ,PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL ,MENOROIGUAL;
+
+nonterminal String VIS,TIPO;
+nonterminal  INICIO, SENTENCIAS, S, CUERPO, C, LIST, L;
+
+
+//agregamos la precedencia
+
+//precedence left MAS, MENOS;
+//precedence left POR, DIV; 
+
+
+start with INICIO;
+
+INICIO ::= SENTENCIAS
+                {:
+                    System.out.println(tmp);
+                    tmp="";
+                :}
+;
+
+SENTENCIAS ::= SENTENCIAS S
+    |S
+;
+
+S ::= VIS:vi TIPO:tip ID:id PARENIZQ 
+                {:
+                    if(!tip.equalsIgnoreCase("void")){
+                        tmp+="funcion "+vi+" "+tip+" "+id+"(";
+                    }else{
+                        tmp+="metodo "+vi+" "+id+"(";
+                    }
+                :}
+    LIST PARENDER LLAVEDER
+                {:
+                    tmp+=")"+"{\n";
+                :}
+    CUERPO LLAVEIZQ
+                {:
+                    tmp+="}\n";
+                :}
+
+    | error PUNTOYCOMA
+    | error LLAVEIZQ
+;
+
+LIST ::= LIST COMA
+                {:
+                    tmp+=",";
+                :} 
+    L
+
+    | L
+;
+
+L ::= TIPO:tip ID:id
+                {:
+                    tmp+=tip+" "+id;
+                :}
+;
+
+CUERPO ::= CUERPO C
+    | C
+;
+
+C ::= TIPO:tip ID:id ASIGNA ENTERO:num PUNTOYCOMA 
+                {:
+                    tmp+=tip+" "+id+"="+num+";\n";
+                :}
+    |PRINT PARENIZQ CADENA:cad PARENDER PUNTOYCOMA
+                {:
+                    tmp+="imprimir("+cad+");\n";
+                :}
+;
+
+TIPO ::= INT1:in 
+                {:
+                    RESULT=in;
+                :}
+    | CHAR1:ch
+                {:
+                    RESULT=ch;
+                :}
+    | VOI:vo
+                {:
+                    RESULT=vo;
+                :}
+;
+
+VIS ::= PUB:pu
+                {:
+                    RESULT=pu;
+                :}
+    | PRI:pr 
+                {:
+                    RESULT=pr;
+                :}
+;
