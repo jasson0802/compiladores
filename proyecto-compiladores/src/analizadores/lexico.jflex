@@ -13,7 +13,7 @@ import java_cup.runtime.Symbol;
 
 /*En la variable string se van a guardar los elementos que se encuentren entre comillas*/
 %{
-    //Código de usuario
+    //Cï¿½digo de usuario
     String cadena= "";
 %}
 
@@ -70,6 +70,10 @@ IGUAL = "=="
 ASIGNA = "="
 MAYOROIGUAL = ">="
 MENOROIGUAL = "<="
+DIVMODULAR="/"
+CONDTERNARIA = ":"
+VALIDTERNARIO ="?"
+NUMERAL="#"
 
 //Expresiones
 DIGITOS = [0-9]
@@ -107,6 +111,8 @@ BREAK = "break"
 FOR = "for"
 ELSE = "else"
 ELIF = "elif"
+FLOAT="float"
+FUNCTION="function"
 %%
 
 
@@ -128,6 +134,8 @@ ELIF = "elif"
 <YYINITIAL> {FOR}     	{ return new Symbol(sym.FOR);}
 <YYINITIAL> {ELSE}     	{ return new Symbol(sym.ELSE);}
 <YYINITIAL> {ELIF}     	{ return new Symbol(sym.ELIF);}
+<YYINITIAL> {FLOAT}     { return new Symbol(sym.FLOAT);}
+<YYINITIAL> {FUNCTION}  { return new Symbol(sym.FUNCTION);}
 
 
 <YYINITIAL> {DISYUNCION}     	{ return new Symbol(sym.DISYUNCION);}
@@ -153,6 +161,10 @@ ELIF = "elif"
 <YYINITIAL> {ASIGNA}     		{ return new Symbol(sym.ASIGNA);}
 <YYINITIAL> {MAYOROIGUAL}     	{ return new Symbol(sym.MAYOROIGUAL);}
 <YYINITIAL> {MENOROIGUAL}     	{ return new Symbol(sym.MENOROIGUAL);}
+<YYINITIAL> {DIVMODULAR}        {return new Symbol(sym.DIVMODULAR);}
+<YYINITIAL> {CONDTERNARIA}      {return new Symbol(sym.CONDTERNARIA);}
+<YYINITIAL> {VALIDTERNARIO}     {return new Symbol(sym.VALIDTERNARIO);}
+<YYINITIAL> {NUMERAL}           {return new Symbol(sym.NUMERAL);}
 
 <YYINITIAL> {ENTERO}    		{ return new Symbol(sym.ENTERO);}
 <YYINITIAL> {IDENTIFICADOR}     {return new Symbol(sym.ID);}
@@ -190,6 +202,6 @@ ELIF = "elif"
 
 /* Manejo de errores */
 <YYINITIAL> . {
-        String errLex = "Error léxico : '"+yytext()+"' en la línea: "+(yyline+1)+" y columna: "+(yycolumn+1);
+        String errLex = "Error lï¿½xico : '"+yytext()+"' en la lï¿½nea: "+(yyline+1)+" y columna: "+(yycolumn+1);
         System.out.println(errLex);
 }
