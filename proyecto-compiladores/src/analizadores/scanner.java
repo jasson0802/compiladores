@@ -8,6 +8,7 @@
 package analizadores;
 
 import java_cup.runtime.Symbol;
+import analizadores.Util;
 
 
 
@@ -1031,7 +1032,7 @@ public class scanner implements java_cup.runtime.Scanner {
         switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
           case 1:
             { String errLex = "Error léxico : '"+yytext()+"' en la línea: "+(yyline+1)+" y columna: "+(yycolumn+1);
-        System.out.println(errLex);
+        Util.WriteToken(errLex);
             }
             // fall through
           case 51: break;
@@ -1051,102 +1052,102 @@ public class scanner implements java_cup.runtime.Scanner {
             // fall through
           case 54: break;
           case 5:
-            { return new Symbol(sym.NEGACION);
+            { Util.WriteToken("Encontre negacion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.NEGACION, yyline, yycolumn,"negacion");
             }
             // fall through
           case 55: break;
           case 6:
-            { return new Symbol(sym.ID);
+            { Util.WriteToken("Encontre un IDENTIFICADOR " + yytext()); return new Symbol(sym.IDENTIFICADOR, yyline, yycolumn,"identificador");
             }
             // fall through
           case 56: break;
           case 7:
-            { return new Symbol(sym.CONJUNCION);
+            { Util.WriteToken("Encontre conjuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CONJUNCION, yyline, yycolumn,"conjuncion");
             }
             // fall through
           case 57: break;
           case 8:
-            { return new Symbol(sym.PARENIZQ);
+            { Util.WriteToken("Encontre un PARENIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENIZQ, yyline, yycolumn,"parenizq");
             }
             // fall through
           case 58: break;
           case 9:
-            { return new Symbol(sym.PARENDER);
+            { Util.WriteToken("Encontre un PARENDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENDER, yyline, yycolumn,"parender");
             }
             // fall through
           case 59: break;
           case 10:
-            { return new Symbol(sym.MULTIPLICACION);
+            { Util.WriteToken("Encontre un MULTIPLICACION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MULTIPLICACION, yyline, yycolumn,"multiplicacion");
             }
             // fall through
           case 60: break;
           case 11:
-            { return new Symbol(sym.SUMA);
+            { Util.WriteToken("Encontre un SUMA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.SUMA, yyline, yycolumn,"suma");
             }
             // fall through
           case 61: break;
           case 12:
-            { return new Symbol(sym.COMA);
+            { Util.WriteToken("Encontre coma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.COMA, yyline, yycolumn,"coma");
             }
             // fall through
           case 62: break;
           case 13:
-            { return new Symbol(sym.RESTA);
+            { Util.WriteToken("Encontre un RESTA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RESTA, yyline, yycolumn,"resta");
             }
             // fall through
           case 63: break;
           case 14:
-            { return new Symbol(sym.ENTERO);
+            { Util.WriteToken("Encontre un ENTERO  Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.ENTERO, yyline, yycolumn,"entero");
             }
             // fall through
           case 64: break;
           case 15:
-            { return new Symbol(sym.PUNTOYCOMA);
+            { Util.WriteToken("Encontre puntoycoma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PUNTOYCOMA, yyline, yycolumn,"puntoycoma");
             }
             // fall through
           case 65: break;
           case 16:
-            { return new Symbol(sym.MENOR);
+            { Util.WriteToken("Encontre un MENOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOR, yyline, yycolumn,"menor");
             }
             // fall through
           case 66: break;
           case 17:
-            { return new Symbol(sym.ASIGNA);
+            { Util.WriteToken("Encontre un ASIGNA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ASIGNA, yyline, yycolumn,"asigna");
             }
             // fall through
           case 67: break;
           case 18:
-            { return new Symbol(sym.MAYOR);
+            { Util.WriteToken("Encontre un MAYOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOR, yyline, yycolumn,"mayor");
             }
             // fall through
           case 68: break;
           case 19:
-            { return new Symbol(sym.ABRECORCHETE);
+            { Util.WriteToken("Encontre un ABRECORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ABRECORCHETE, yyline, yycolumn,"abrecorchete");
             }
             // fall through
           case 69: break;
           case 20:
-            { return new Symbol(sym.CIERRACORCHETE);
+            { Util.WriteToken("Encontre un CIERRACORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CIERRACORCHETE, yyline, yycolumn,"cierracorchete");
             }
             // fall through
           case 70: break;
           case 21:
-            { return new Symbol(sym.LLAVEIZQ);
+            { Util.WriteToken("Encontre un LLAVEIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEIZQ, yyline, yycolumn,"llaveizq");
             }
             // fall through
           case 71: break;
           case 22:
-            { return new Symbol(sym.DISYUNCION);
+            { Util.WriteToken("Encontre disyuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DISYUNCION, yyline, yycolumn,"diyuncion");
             }
             // fall through
           case 72: break;
           case 23:
-            { return new Symbol(sym.LLAVEDER);
+            { Util.WriteToken("Encontre un LLAVEDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEDER, yyline, yycolumn,"llaveder");
             }
             // fall through
           case 73: break;
           case 24:
-            { return new Symbol(sym.MODULO);
+            { Util.WriteToken("Encontre un MODULO Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MODULO, yyline, yycolumn,"modulo");
             }
             // fall through
           case 74: break;
@@ -1168,32 +1169,32 @@ public class scanner implements java_cup.runtime.Scanner {
             // fall through
           case 77: break;
           case 28:
-            { return new Symbol(sym.POTENCIA);
+            { Util.WriteToken("Encontre un POTENCIA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.POTENCIA, yyline, yycolumn,"potencia");
             }
             // fall through
           case 78: break;
           case 29:
-            { return new Symbol(sym.DIVISION);
+            { Util.WriteToken("Encontre un DIVISION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DIVISION, yyline, yycolumn,"division");
             }
             // fall through
           case 79: break;
           case 30:
-            { return new Symbol(sym.MENOROIGUAL);
+            { Util.WriteToken("Encontre un MENOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOROIGUAL, yyline, yycolumn,"menoroigual");
             }
             // fall through
           case 80: break;
           case 31:
-            { return new Symbol(sym.IGUAL);
+            { Util.WriteToken("Encontre un IGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IGUAL, yyline, yycolumn,"igual");
             }
             // fall through
           case 81: break;
           case 32:
-            { return new Symbol(sym.MAYOROIGUAL);
+            { Util.WriteToken("Encontre un MAYOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOROIGUAL, yyline, yycolumn,"mayoroigual");
             }
             // fall through
           case 82: break;
           case 33:
-            { return new Symbol(sym.IF);
+            { Util.WriteToken("Encontre un if Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IF, yyline, yycolumn,"if");
             }
             // fall through
           case 83: break;
@@ -1218,52 +1219,52 @@ public class scanner implements java_cup.runtime.Scanner {
             // fall through
           case 87: break;
           case 38:
-            { return new Symbol(sym.FOR);
+            { Util.WriteToken("Encontre un for Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.FOR, yyline, yycolumn,"for");
             }
             // fall through
           case 88: break;
           case 39:
-            { return new Symbol(sym.INT1);
+            { Util.WriteToken("Encontre un tipo ENTERO Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.INT1, yyline, yycolumn,"entero");
             }
             // fall through
           case 89: break;
           case 40:
-            { return new Symbol(sym.CHAR1);
+            { return new Symbol(sym.CHAR1, yyline, yycolumn,"char");
             }
             // fall through
           case 90: break;
           case 41:
-            { return new Symbol(sym.ELIF);
+            { Util.WriteToken("Encontre un elif Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELIF, yyline, yycolumn,"elif");
             }
             // fall through
           case 91: break;
           case 42:
-            { return new Symbol(sym.ELSE);
+            { Util.WriteToken("Encontre un else Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELSE, yyline, yycolumn,"else");
             }
             // fall through
           case 92: break;
           case 43:
-            { return new Symbol(sym.VOI);
+            { Util.WriteToken("Encontre un void Linea: " + yyline + " columna " + yycolumn +" Token ID: " + sym.VOI); return new Symbol(sym.VOI, yyline, yycolumn,"void");
             }
             // fall through
           case 93: break;
           case 44:
-            { return new Symbol(sym.BREAK);
+            { Util.WriteToken("Encontre un break Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.BREAK, yyline, yycolumn,"break");
             }
             // fall through
           case 94: break;
           case 45:
-            { return new Symbol(sym.PRINT);
+            { Util.WriteToken("Encontre un print Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PRINT, yyline, yycolumn,"print");
             }
             // fall through
           case 95: break;
           case 46:
-            { return new Symbol(sym.PUB);
+            { Util.WriteToken("Encontre un public Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PUB, yyline, yycolumn,"public");
             }
             // fall through
           case 96: break;
           case 47:
-            { return new Symbol(sym.RETURN);
+            { Util.WriteToken("Encontre un return Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RETURN, yyline, yycolumn,"return");
             }
             // fall through
           case 97: break;
@@ -1273,7 +1274,7 @@ public class scanner implements java_cup.runtime.Scanner {
             // fall through
           case 98: break;
           case 49:
-            { return new Symbol(sym.PRI);
+            { Util.WriteToken("Encontre un private Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PRI, yyline, yycolumn,"private");
             }
             // fall through
           case 99: break;

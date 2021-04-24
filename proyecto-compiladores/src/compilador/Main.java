@@ -1,9 +1,15 @@
 package compilador;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.StringReader;
+import java.nio.charset.StandardCharsets;
+
 import analizadores.parser;
 import analizadores.scanner;
+import java_cup.runtime.DefaultSymbolFactory;
+import java_cup.runtime.SymbolFactory;
+import analizadores.Util;
 
 public class Main {
 
@@ -12,10 +18,10 @@ public class Main {
      */
     public static void main(String[] args) {
         try {
-            String texto="int miVar=10;";
-            System.out.println("Inicia el analisis...\n");
-            scanner scan = new scanner(new BufferedReader( new StringReader(texto)));
-            //System.out.println(scan.yystate());
+        	String entrada = Util.readFile("entrada.txt", StandardCharsets.UTF_8);           
+            Util.setPrintWriterPath("salida.txt");
+        	System.out.println("Inicia el analisis...\n");
+            scanner scan = new scanner(new BufferedReader( new StringReader(entrada)));
             parser parser = new analizadores.parser(scan);
             parser.parse();
             System.out.println("Finaliza el analisis...");

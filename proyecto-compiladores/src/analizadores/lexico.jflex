@@ -4,6 +4,7 @@
 package analizadores;
 
 import java_cup.runtime.Symbol;
+import analizadores.Util;
 
 
 %%
@@ -13,7 +14,7 @@ import java_cup.runtime.Symbol;
 
 /*En la variable string se van a guardar los elementos que se encuentren entre comillas*/
 %{
-    //Cï¿½digo de usuario
+    //Código de usuario
     String cadena= "";
 %}
 
@@ -70,10 +71,6 @@ IGUAL = "=="
 ASIGNA = "="
 MAYOROIGUAL = ">="
 MENOROIGUAL = "<="
-DIVMODULAR="/"
-CONDTERNARIA = ":"
-VALIDTERNARIO ="?"
-NUMERAL="#"
 
 //Expresiones
 DIGITOS = [0-9]
@@ -111,8 +108,6 @@ BREAK = "break"
 FOR = "for"
 ELSE = "else"
 ELIF = "elif"
-FLOAT="float"
-FUNCTION="function"
 %%
 
 
@@ -121,56 +116,49 @@ FUNCTION="function"
 <YYINITIAL> "abstract"           { return symbol(sym.ABSTRACT); }
 <YYINITIAL> "boolean"            { return symbol(sym.BOOLEAN); }
 
-<YYINITIAL> {INT1}      { return new Symbol(sym.INT1);}
-<YYINITIAL> {CHAR1}     { return new Symbol(sym.CHAR1);}
-<YYINITIAL> {PUB}       { return new Symbol(sym.PUB);}
-<YYINITIAL> {PRI}       { return new Symbol(sym.PRI);}
-<YYINITIAL> {VOI}       { return new Symbol(sym.VOI);}
-<YYINITIAL> {PRINT}     { return new Symbol(sym.PRINT);}
-<YYINITIAL> {ELIF}     	{ return new Symbol(sym.ELIF);}
-<YYINITIAL> {IF}     	{ return new Symbol(sym.IF);}
-<YYINITIAL> {RETURN}    { return new Symbol(sym.RETURN);}
-<YYINITIAL> {BREAK}     { return new Symbol(sym.BREAK);}
-<YYINITIAL> {FOR}     	{ return new Symbol(sym.FOR);}
-<YYINITIAL> {ELSE}     	{ return new Symbol(sym.ELSE);}
-<YYINITIAL> {ELIF}     	{ return new Symbol(sym.ELIF);}
-<YYINITIAL> {FLOAT}     { return new Symbol(sym.FLOAT);}
-<YYINITIAL> {FUNCTION}  { return new Symbol(sym.FUNCTION);}
+<YYINITIAL> {INT1}      { Util.WriteToken("Encontre un tipo ENTERO Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.INT1, yyline, yycolumn,"entero");}
+<YYINITIAL> {CHAR1}     { return new Symbol(sym.CHAR1, yyline, yycolumn,"char");}
+<YYINITIAL> {PUB}       { Util.WriteToken("Encontre un public Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PUB, yyline, yycolumn,"public");}
+<YYINITIAL> {PRI}       { Util.WriteToken("Encontre un private Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PRI, yyline, yycolumn,"private");}
+<YYINITIAL> {VOI}       { Util.WriteToken("Encontre un void Linea: " + yyline + " columna " + yycolumn +" Token ID: " + sym.VOI); return new Symbol(sym.VOI, yyline, yycolumn,"void");}
+<YYINITIAL> {PRINT}     { Util.WriteToken("Encontre un print Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PRINT, yyline, yycolumn,"print");}
+<YYINITIAL> {ELIF}     	{ Util.WriteToken("Encontre un elif Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELIF, yyline, yycolumn,"elif");}
+<YYINITIAL> {IF}     	{ Util.WriteToken("Encontre un if Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IF, yyline, yycolumn,"if");}
+<YYINITIAL> {RETURN}    { Util.WriteToken("Encontre un return Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RETURN, yyline, yycolumn,"return");}
+<YYINITIAL> {BREAK}     { Util.WriteToken("Encontre un break Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.BREAK, yyline, yycolumn,"break");}
+<YYINITIAL> {FOR}     	{ Util.WriteToken("Encontre un for Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.FOR, yyline, yycolumn,"for");}
+<YYINITIAL> {ELSE}     	{ Util.WriteToken("Encontre un else Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELSE, yyline, yycolumn,"else");}
+<YYINITIAL> {ELIF}     	{ Util.WriteToken("Encontre un elif Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELIF, yyline, yycolumn,"elif");}
 
 
-<YYINITIAL> {DISYUNCION}     	{ return new Symbol(sym.DISYUNCION);}
-<YYINITIAL> {CONJUNCION}     	{ return new Symbol(sym.CONJUNCION);}
-<YYINITIAL> {COMA}     			{ return new Symbol(sym.COMA);}
-<YYINITIAL> {NEGACION}     		{ return new Symbol(sym.NEGACION);}
-<YYINITIAL> {PUNTOYCOMA}     	{ return new Symbol(sym.PUNTOYCOMA);}
-<YYINITIAL> {ABRECORCHETE}     	{ return new Symbol(sym.ABRECORCHETE);}
-<YYINITIAL> {CIERRACORCHETE}    { return new Symbol(sym.CIERRACORCHETE);}
-<YYINITIAL> {LLAVEIZQ}     		{ return new Symbol(sym.LLAVEIZQ);}
-<YYINITIAL> {LLAVEDER}     		{ return new Symbol(sym.LLAVEDER);}
-<YYINITIAL> {PARENIZQ}     		{ return new Symbol(sym.PARENIZQ);}
-<YYINITIAL> {PARENDER}     		{ return new Symbol(sym.PARENDER);}
-<YYINITIAL> {SUMA}     			{ return new Symbol(sym.SUMA);}
-<YYINITIAL> {RESTA}     		{ return new Symbol(sym.RESTA);}
-<YYINITIAL> {MULTIPLICACION}    { return new Symbol(sym.MULTIPLICACION);}
-<YYINITIAL> {DIVISION}     		{ return new Symbol(sym.DIVISION);}
-<YYINITIAL> {POTENCIA}     		{ return new Symbol(sym.POTENCIA);}
-<YYINITIAL> {MODULO}     		{ return new Symbol(sym.MODULO);}
-<YYINITIAL> {MAYOR}     		{ return new Symbol(sym.MAYOR);}
-<YYINITIAL> {MENOR}     		{ return new Symbol(sym.MENOR);}
-<YYINITIAL> {IGUAL}     		{ return new Symbol(sym.IGUAL);}
-<YYINITIAL> {ASIGNA}     		{ return new Symbol(sym.ASIGNA);}
-<YYINITIAL> {MAYOROIGUAL}     	{ return new Symbol(sym.MAYOROIGUAL);}
-<YYINITIAL> {MENOROIGUAL}     	{ return new Symbol(sym.MENOROIGUAL);}
-<YYINITIAL> {DIVMODULAR}        {return new Symbol(sym.DIVMODULAR);}
-<YYINITIAL> {CONDTERNARIA}      {return new Symbol(sym.CONDTERNARIA);}
-<YYINITIAL> {VALIDTERNARIO}     {return new Symbol(sym.VALIDTERNARIO);}
-<YYINITIAL> {NUMERAL}           {return new Symbol(sym.NUMERAL);}
+<YYINITIAL> {DISYUNCION}     	{ Util.WriteToken("Encontre disyuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DISYUNCION, yyline, yycolumn,"diyuncion");}
+<YYINITIAL> {CONJUNCION}     	{ Util.WriteToken("Encontre conjuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CONJUNCION, yyline, yycolumn,"conjuncion");}
+<YYINITIAL> {COMA}     			{ Util.WriteToken("Encontre coma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.COMA, yyline, yycolumn,"coma");}
+<YYINITIAL> {NEGACION}     		{ Util.WriteToken("Encontre negacion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.NEGACION, yyline, yycolumn,"negacion");}
+<YYINITIAL> {PUNTOYCOMA}     	{ Util.WriteToken("Encontre puntoycoma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PUNTOYCOMA, yyline, yycolumn,"puntoycoma");}
+<YYINITIAL> {ABRECORCHETE}     	{ Util.WriteToken("Encontre un ABRECORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ABRECORCHETE, yyline, yycolumn,"abrecorchete");}
+<YYINITIAL> {CIERRACORCHETE}    { Util.WriteToken("Encontre un CIERRACORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CIERRACORCHETE, yyline, yycolumn,"cierracorchete");}
+<YYINITIAL> {LLAVEIZQ}     		{ Util.WriteToken("Encontre un LLAVEIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEIZQ, yyline, yycolumn,"llaveizq");}
+<YYINITIAL> {LLAVEDER}     		{ Util.WriteToken("Encontre un LLAVEDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEDER, yyline, yycolumn,"llaveder");}
+<YYINITIAL> {PARENIZQ}     		{ Util.WriteToken("Encontre un PARENIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENIZQ, yyline, yycolumn,"parenizq");}
+<YYINITIAL> {PARENDER}     		{ Util.WriteToken("Encontre un PARENDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENDER, yyline, yycolumn,"parender");}
+<YYINITIAL> {SUMA}     			{ Util.WriteToken("Encontre un SUMA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.SUMA, yyline, yycolumn,"suma");}
+<YYINITIAL> {RESTA}     		{ Util.WriteToken("Encontre un RESTA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RESTA, yyline, yycolumn,"resta");}
+<YYINITIAL> {MULTIPLICACION}    { Util.WriteToken("Encontre un MULTIPLICACION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MULTIPLICACION, yyline, yycolumn,"multiplicacion");}
+<YYINITIAL> {DIVISION}     		{ Util.WriteToken("Encontre un DIVISION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DIVISION, yyline, yycolumn,"division");}
+<YYINITIAL> {POTENCIA}     		{ Util.WriteToken("Encontre un POTENCIA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.POTENCIA, yyline, yycolumn,"potencia");}
+<YYINITIAL> {MODULO}     		{ Util.WriteToken("Encontre un MODULO Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MODULO, yyline, yycolumn,"modulo");}
+<YYINITIAL> {MAYOR}     		{ Util.WriteToken("Encontre un MAYOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOR, yyline, yycolumn,"mayor");}
+<YYINITIAL> {MENOR}     		{ Util.WriteToken("Encontre un MENOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOR, yyline, yycolumn,"menor");}
+<YYINITIAL> {IGUAL}     		{ Util.WriteToken("Encontre un IGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IGUAL, yyline, yycolumn,"igual");}
+<YYINITIAL> {ASIGNA}     		{ Util.WriteToken("Encontre un ASIGNA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ASIGNA, yyline, yycolumn,"asigna");}
+<YYINITIAL> {MAYOROIGUAL}     	{ Util.WriteToken("Encontre un MAYOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOROIGUAL, yyline, yycolumn,"mayoroigual");}
+<YYINITIAL> {MENOROIGUAL}     	{ Util.WriteToken("Encontre un MENOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOROIGUAL, yyline, yycolumn,"menoroigual");}
 
-<YYINITIAL> {ENTERO}    		{ return new Symbol(sym.ENTERO);}
-<YYINITIAL> {IDENTIFICADOR}     {return new Symbol(sym.ID);}
+<YYINITIAL> {ENTERO}    		{ Util.WriteToken("Encontre un ENTERO  Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.ENTERO, yyline, yycolumn,"entero");}
+<YYINITIAL> {IDENTIFICADOR}     { Util.WriteToken("Encontre un IDENTIFICADOR " + yytext()); return new Symbol(sym.IDENTIFICADOR, yyline, yycolumn,"identificador");}
 <YYINITIAL> {ESPACIO}     		{ /*Espacios en blanco, ignorados*/ }
 <YYINITIAL> {ENTER}     		{ /*Saltos de linea, ignorados*/}
-    
     
  /*Esta definicion permite guardar cualquier cosa, cuando se inicia con comillas y se cierran*/
  /*<CADENA> {
@@ -202,6 +190,6 @@ FUNCTION="function"
 
 /* Manejo de errores */
 <YYINITIAL> . {
-        String errLex = "Error lï¿½xico : '"+yytext()+"' en la lï¿½nea: "+(yyline+1)+" y columna: "+(yycolumn+1);
-        System.out.println(errLex);
+        String errLex = "Error léxico : '"+yytext()+"' en la línea: "+(yyline+1)+" y columna: "+(yycolumn+1);
+        Util.WriteToken(errLex);
 }

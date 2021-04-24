@@ -22,11 +22,9 @@ action code
 :}
 
 
-terminal String ID,ENTERO,CADENA,INT1,CHAR1,PUB,PRI,VOI, PRINT;
-terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,LLAVEIZQ,LLAVEDER,PARENIZQ,
-PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL ,MENOROIGUAL,DIVMODULAR,
-CONDTERNARIA, VALIDTERNARIO, NUMERAL;
-terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, BOOLEAN, ABSTRACT,FUNCTION;
+terminal String IDENTIFICADOR,ENTERO,CADENA,INT1,CHAR1,PUB,PRI,VOI, PRINT;
+terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,LLAVEIZQ,LLAVEDER,PARENIZQ,PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL ,MENOROIGUAL;
+terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, BOOLEAN, ABSTRACT;
 
 nonterminal String VIS,TIPO;
 nonterminal  INICIO, SENTENCIAS, S, CUERPO, C, LIST, L;
@@ -41,9 +39,8 @@ nonterminal  INICIO, SENTENCIAS, S, CUERPO, C, LIST, L;
 start with INICIO;
 
 INICIO ::= SENTENCIAS
-                {:
-                    System.out.println(tmp);
-                    tmp="";
+				{:
+                    System.out.println("Su programa compila existosamente");
                 :}
 ;
 
@@ -52,76 +49,46 @@ SENTENCIAS ::= SENTENCIAS S
 ;
 
 
-S ::= VIS:vi TIPO:tip ID:id PARENIZQ 
-                {:
-                    if(!tip.equalsIgnoreCase("void")){
-                        tmp+="funcion "+vi+" "+tip+" "+id+"(";
-                    }else{
-                        tmp+="metodo "+vi+" "+id+"(";
-                    }
-                :}
-    LIST PARENDER LLAVEDER
-                {:
-                    tmp+=")"+"{\n";
-                :}
-    CUERPO LLAVEIZQ
-                {:
-                    tmp+="}\n";
-                :}
+S ::= VIS:vi TIPO:tip IDENTIFICADOR:id PARENIZQ 
+    LIST PARENDER LLAVEIZQ
+
+    LLAVEDER
 
     | error PUNTOYCOMA
     | error LLAVEIZQ
 ;
 
 LIST ::= LIST COMA
-                {:
-                    tmp+=",";
-                :} 
+
     L
 
     | L
 ;
 
-L ::= TIPO:tip ID:id
-                {:
-                    tmp+=tip+" "+id;
-                :}
+L ::= TIPO:tip IDENTIFICADOR:id
+
 ;
 
 CUERPO ::= CUERPO C
     | C
 ;
 
-C ::= TIPO:tip ID:id ASIGNA ENTERO:num PUNTOYCOMA 
-                {:
-                    tmp+=tip+" "+id+"="+num+";\n";
-                :}
+C ::= TIPO:tip IDENTIFICADOR:id ASIGNA ENTERO:num PUNTOYCOMA 
+
     |PRINT PARENIZQ CADENA:cad PARENDER PUNTOYCOMA
-                {:
-                    tmp+="imprimir("+cad+");\n";
-                :}
+
 ;
 
 TIPO ::= INT1:in 
-                {:
-                    RESULT=in;
-                :}
+
     | CHAR1:ch
-                {:
-                    RESULT=ch;
-                :}
+
     | VOI:vo
-                {:
-                    RESULT=vo;
-                :}
+
 ;
 
 VIS ::= PUB:pu
-                {:
-                    RESULT=pu;
-                :}
+
     | PRI:pr 
-                {:
-                    RESULT=pr;
-                :}
+
 ;

@@ -18,12 +18,12 @@ public class sym {
   public static final int PRI = 8;
   public static final int FOR = 35;
   public static final int PUB = 7;
+  public static final int IDENTIFICADOR = 2;
   public static final int IGUAL = 30;
   public static final int CHAR1 = 6;
   public static final int ASIGNA = 31;
   public static final int SUMA = 22;
   public static final int IF = 34;
-  public static final int ID = 2;
   public static final int ABSTRACT = 41;
   public static final int BOOLEAN = 40;
   public static final int VOI = 9;
@@ -53,7 +53,7 @@ public class sym {
   public static final String[] terminalNames = new String[] {
   "EOF",
   "error",
-  "ID",
+  "IDENTIFICADOR",
   "ENTERO",
   "CADENA",
   "INT1",
