@@ -1,0 +1,105 @@
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un IDENTIFICADOR main
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 1 columna 10
+Encontre un ENTERO  Linea: 1 columna 12
+Encontre un MULTIPLICACION Linea: 1 columna 15
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 1 columna 25
+Encontre un PARENDER Linea: 1 columna 27
+Encontre puntoycoma Linea: 1 columna 28
+Encontre un if Linea: 2 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 2 columna 9
+Encontre un ENTERO  Linea: 2 columna 12
+Encontre un LLAVEIZQ Linea: 2 columna 15
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 3 columna 7
+Encontre un IDENTIFICADOR read
+Encontre un PARENIZQ Linea: 3 columna 13
+Encontre un PARENDER Linea: 3 columna 14
+Encontre un RESTA Linea: 3 columna 16
+Encontre un RESTA Linea: 3 columna 18
+Encontre un RESTA Linea: 3 columna 19
+Encontre un IDENTIFICADOR temp
+Encontre puntoycoma Linea: 3 columna 24
+Encontre un break Linea: 4 columna 2
+Encontre puntoycoma Linea: 4 columna 7
+Encontre un LLAVEDER Linea: 5 columna 2
+Encontre un else Linea: 6 columna 1
+Error l�xico : ':' en la l�nea: 7 y columna: 6
+Encontre un LLAVEIZQ Linea: 7 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 8 columna 13
+Encontre un ENTERO  Linea: 8 columna 14
+Error l�xico : '?' en la l�nea: 9 y columna: 18
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 8 columna 26
+Encontre un ENTERO  Linea: 8 columna 27
+Encontre un PARENDER Linea: 8 columna 29
+Encontre un POTENCIA Linea: 8 columna 30
+Encontre un ENTERO  Linea: 8 columna 32
+Error l�xico : ':' en la l�nea: 9 y columna: 35
+Encontre un RESTA Linea: 8 columna 36
+Encontre un RESTA Linea: 8 columna 37
+Encontre un IDENTIFICADOR temp
+Encontre puntoycoma Linea: 8 columna 42
+Encontre un LLAVEDER Linea: 9 columna 1
+Encontre un IDENTIFICADOR string
+Encontre un IDENTIFICADOR miString
+Encontre un ASIGNA Linea: 10 columna 17
+Error l�xico : '�' en la l�nea: 11 y columna: 20
+Encontre un ENTERO  Linea: 10 columna 20
+Error l�xico : '�' en la l�nea: 11 y columna: 22
+Encontre puntoycoma Linea: 10 columna 22
+Encontre un IDENTIFICADOR miBool
+Encontre un ASIGNA Linea: 11 columna 16
+Encontre un ENTERO  Linea: 11 columna 18
+Encontre un MAYOROIGUAL Linea: 11 columna 20
+Encontre un ENTERO  Linea: 11 columna 23
+Encontre puntoycoma Linea: 11 columna 24
+Encontre un tipo ENTERO Linea: 12 columna 1
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 12 columna 12
+Encontre un ENTERO  Linea: 12 columna 14
+Error l�xico : '.' en la l�nea: 13 y columna: 17
+Encontre un ENTERO  Linea: 12 columna 17
+Encontre un DIVISION Linea: 12 columna 19
+Encontre un PARENIZQ Linea: 12 columna 22
+Encontre un ENTERO  Linea: 12 columna 23
+Error l�xico : '.' en la l�nea: 13 y columna: 26
+Encontre un ENTERO  Linea: 12 columna 26
+Encontre un MODULO Linea: 12 columna 28
+Encontre un ENTERO  Linea: 12 columna 30
+Error l�xico : '.' en la l�nea: 13 y columna: 32
+Encontre un ENTERO  Linea: 12 columna 32
+Encontre un PARENDER Linea: 12 columna 33
+Encontre puntoycoma Linea: 12 columna 34
+Encontre un print Linea: 13 columna 1
+Encontre un PARENIZQ Linea: 13 columna 6
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 13 columna 13
+Encontre puntoycoma Linea: 13 columna 14
+Encontre un LLAVEDER Linea: 14 columna 0
+Encontre un tipo ENTERO Linea: 16 columna 0
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 16 columna 12
+Encontre un tipo ENTERO Linea: 16 columna 13
+Encontre un IDENTIFICADOR num
+Encontre un PARENDER Linea: 16 columna 20
+Encontre un LLAVEIZQ Linea: 16 columna 21
+Encontre un return Linea: 17 columna 1
+Encontre un IDENTIFICADOR num
+Encontre un SUMA Linea: 17 columna 12
+Encontre un ENTERO  Linea: 17 columna 14
+Encontre un MULTIPLICACION Linea: 17 columna 17
+Encontre un IDENTIFICADOR num
+Encontre puntoycoma Linea: 17 columna 22
+Encontre un LLAVEDER Linea: 18 columna 0

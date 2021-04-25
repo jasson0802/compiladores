@@ -1,0 +1,260 @@
+package analizadores;
+
+import java_cup.runtime.*;
+
+//PARSER 
+parser code
+{://Codigo visible
+    
+    public void syntax_error(Symbol s){
+        System.out.println("Error R de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+    }
+
+    public void unrecovered_syntax_error(Symbol s) throws java.lang.Exception{ 
+        System.out.println("Error NR de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+    }
+
+:}
+
+action code
+{://Codigo de usuario
+    String tmp="";
+:}
+
+terminal String IDENTIFICADOR,ENTERO,CADENA,INT1,CHAR1,PUB,PRI,VOI, PRINT;
+terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,
+        LLAVEIZQ,LLAVEDER,PARENIZQ,PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,
+        MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL,MENOROIGUAL,DIVMODULAR,
+        CONDTERNARIA, VALIDTERNARIO, NUMERAL,FLOAT,CARACTER, ARREGLO,KEYWORDSTRING,ARRAY;
+
+terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, BOOLEAN, ABSTRACT,FUNCTION,
+          COMILLA,DIGITOS,keywordBooleano, 
+          keywordInt,keywordFunction,keywordMain,KEYWORDNULL;
+
+nonterminal  inicio,tipo,main, bloquecodigo, parametros;
+nonterminal funcion,parametros_funcion,comentarioMul,comentarioLin,valoresFuncion,
+            expLogica,expAritmetica,expRelacional,expresion,unarios,operadorRelacional,
+            operadorLogico,operadorAritmetico,asignacreacexpre,instrucciones,parametrosList, 
+            parametro,literales,caracteres,literal,keyword,keywordReal,keywordArreglo,nulo,
+            arregloestatico,instruccionReturn,instruccionIf, instruccionElse, 
+            instruccionElif,instruccionFor,instruccionBreak,instruccion,keywordElif,keywordElse,
+            keywordIf,keywordbreak,keywordReturn,keywordFor,ejecutaFuncion;
+
+
+//agregamos la precedencia
+
+//precedence left MAS, MENOS;
+//precedence left POR, DIV; 
+
+
+start with inicio;
+
+inicio ::= main
+				{:
+                    System.out.println("Su programa compila existosamente");
+               :}
+;
+
+main ::= 
+    INT1 keywordMain PARENIZQ PARENDER bloquecodigo 
+    |
+    INT1 keywordMain PARENIZQ parametros PARENDER bloquecodigo
+    ;
+
+parametros ::= 
+    parametros COMA parametro | parametro 
+    ; 
+
+parametro ::= 
+    tipo IDENTIFICADOR 
+    ;
+
+parametrosList ::=
+    parametrosList COMA IDENTIFICADOR | IDENTIFICADOR 
+    ;   
+
+tipo ::= 
+    keywordReal | keywordBooleano| keywordArreglo | keywordInt
+    ;
+
+literal ::= 
+    INT1 | CADENA | BOOLEAN |CHAR1 
+    ;
+
+literales ::=
+    literales literal | literal 
+    ; 
+
+caracteres ::=
+    caracteres CARACTER | CARACTER 
+    ; 
+
+keyword ::= 
+    KEYWORDSTRING| INT1 | RETURN | BREAK | IF | ELSE | ELIF | FOR
+    ;
+
+keywordReal ::=  FLOAT;
+keywordArreglo ::= ARRAY;
+keywordBooleano ::=  BOOLEAN;
+keywordInt ::= INT1;
+keywordFunction ::=  FUNCTION;
+
+parametros_funcion ::= 
+    PARENIZQ parametros PARENDER
+    |
+    PARENIZQ PARENDER
+    ;
+     
+funcion ::= 
+     keywordFunction IDENTIFICADOR parametros_funcion bloquecodigo
+     ;
+
+comentarioMul ::= 
+     DIVISION MULTIPLICACION literales MULTIPLICACION DIVISION
+     ;
+
+comentarioLin ::= 
+     DIVISION DIVISION literales
+     ;
+
+string ::= 
+    COMILLA caracteres COMILLA
+    ;
+
+arregloestatico ::=
+    ABRECORCHETE literal parametrosList CIERRACORCHETE
+    ;
+
+
+nulo ::= 
+    (KEYWORDNULL| )
+    ;
+
+operadorRelacional ::= 
+     MAYOR|MENOR|IGUAL|MAYOROIGUAL|MENOROIGUAL|NEGACION
+     ;
+
+operadorLogico ::= 
+     DISYUNCION | CONJUNCION
+     ;
+
+asignacreacexpre ::= 
+     tipo IDENTIFICADOR PUNTOYCOMA
+     |
+     tipo IDENTIFICADOR ASIGNA (expresion | literal | arregloestatico) PUNTOYCOMA
+     ;
+
+instruccion ::= 
+    (asignacreacexpre | instruccionReturn| instruccionIf | instruccionFor|
+    instruccionElse|instruccionElif | funcion)
+    ;
+
+bloquecodigo ::= 
+    LLAVEIZQ instrucciones LLAVEDER
+    ;
+instrucciones ::=
+    instrucciones PUNTOYCOMA instruccion | instruccion
+    ;
+
+keywordIf ::=  
+    IF
+    ;
+instruccionIf ::= 
+     keywordIf PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo
+     ;
+
+keywordReturn ::= 
+     RETURN
+     ;
+instruccionReturn ::= 
+     keywordReturn (expresion|literal)
+     ; 
+
+keywordbreak ::= 
+     BREAK
+     ;
+instruccionBreak ::= 
+     keywordbreak PUNTOYCOMA
+     ;
+
+keywordFor ::= 
+     FOR
+     ;
+instruccionFor ::= 
+     keywordFor PARENIZQ asignacreacexpre PUNTOYCOMA expresion PARENDER bloquecodigo
+     ;
+
+keywordElse ::= 
+     ELSE
+     ;
+instruccionElse ::= 
+     keywordElse bloquecodigo
+     ;
+
+keywordElif ::= 
+     ELIF
+     ;
+instruccionElif ::= 
+     keywordElif PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo
+     ;
+
+expresion ::= 
+     expAritmetica | expRelacional | expLogica | ejecutaFuncion
+     ;
+
+operadorAritmetico::=
+    SUMA|RESTA|MULTIPLICACION|DIVISION|MODULO
+    ;
+
+expAritmetica ::= 
+     ((IDENTIFICADOR|literal|ejecutaFuncion)
+     operadorAritmetico 
+     (IDENTIFICADOR|literal|ejecutaFuncion)) 
+     ; 
+
+expAritmetica ::= 
+     PARENIZQ expAritmetica PARENDER
+     ;
+
+expRelacional ::= 
+     (IDENTIFICADOR|literal|expresion)operadorRelacional(IDENTIFICADOR|literal|expresion)
+     ;
+expRelacional ::= 
+     PARENIZQ expRelacional PARENDER
+     ;
+
+expLogica ::= 
+     (IDENTIFICADOR|literal|expresion)
+     (VALIDTERNARIO | operadorLogico)
+     (IDENTIFICADOR|literal|expresion)
+     ;
+
+expLogica ::= 
+    PARENIZQ expLogica PARENDER
+    ;
+
+expLogica ::= 
+    NEGACION expLogica
+    ;
+
+expLogica ::= 
+     BOOLEAN
+     ;
+
+ejecutaFuncion ::= 
+     IDENTIFICADOR PARENIZQ valoresFuncion  PARENDER
+     ;
+
+valoresFuncion ::= 
+     IDENTIFICADOR|literal
+     ;
+
+valoresFuncion ::= 
+     IDENTIFICADOR COMA valoresFuncion
+     ;
+
+unarios ::=
+     literal SUMA SUMA |
+     literal RESTA RESTA |
+     NEGACION BOOLEAN 
+     ;
