@@ -103,3 +103,66 @@ Encontre un MULTIPLICACION Linea: 17 columna 17
 Encontre un IDENTIFICADOR num
 Encontre puntoycoma Linea: 17 columna 22
 Encontre un LLAVEDER Linea: 18 columna 0
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 1 columna 10
+Encontre un ENTERO  Linea: 1 columna 12
+Encontre un MULTIPLICACION Linea: 1 columna 15
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 1 columna 25
+Encontre un PARENDER Linea: 1 columna 27
+Encontre puntoycoma Linea: 1 columna 28
+Encontre un if Linea: 2 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 2 columna 9
+Encontre un tipo ENTERO Linea: 0 columna 0
+Encontre un Kmain Linea: 0 columna 4
+Encontre un PARENIZQ Linea: 0 columna 9
+Encontre un PARENDER Linea: 0 columna 10
+Encontre un LLAVEIZQ Linea: 0 columna 12
+Encontre un tipo ENTERO Linea: 1 columna 1
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 1 columna 10
+Encontre un ENTERO  Linea: 1 columna 12
+Encontre un MULTIPLICACION Linea: 1 columna 15
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 1 columna 25
+Encontre un PARENDER Linea: 1 columna 27
+Encontre puntoycoma Linea: 1 columna 28
+Encontre un if Linea: 2 columna 1
+Encontre un PARENIZQ Linea: 2 columna 4
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 2 columna 10
+Encontre un ENTERO  Linea: 2 columna 13
+Encontre un PARENDER Linea: 2 columna 15

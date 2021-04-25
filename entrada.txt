@@ -1,6 +1,6 @@
 int main () {
 	int temp = 12 * residuo(45);
-	if temp == 12 {
+	if (temp == 12) {
 		temp = read() - --temp;
 		break;
 		}

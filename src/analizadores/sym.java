@@ -8,28 +8,38 @@ package analizadores;
 /** CUP generated class containing symbol constants. */
 public class sym {
   /* terminals */
-  public static final int INT1 = 5;
+  public static final int DIGITOS = 49;
   public static final int PUNTOYCOMA = 15;
   public static final int ABRECORCHETE = 16;
   public static final int ENTERO = 3;
+  public static final int KEYWORDMAIN = 54;
+  public static final int KEYWORDBOOLEAN = 50;
+  public static final int CONDTERNARIA = 35;
   public static final int RESTA = 23;
   public static final int PARENIZQ = 20;
   public static final int LLAVEDER = 19;
   public static final int PRI = 8;
-  public static final int FOR = 35;
+  public static final int ARRAY = 40;
+  public static final int FOR = 42;
+  public static final int KEYWORDNULL = 55;
   public static final int PUB = 7;
   public static final int IDENTIFICADOR = 2;
   public static final int IGUAL = 30;
+  public static final int CARACTER = 39;
+  public static final int DIVMODULAR = 34;
+  public static final int KEYWORDFLOAT = 57;
+  public static final int KEYWORDREAL = 56;
   public static final int CHAR1 = 6;
   public static final int ASIGNA = 31;
   public static final int SUMA = 22;
-  public static final int IF = 34;
-  public static final int ABSTRACT = 41;
-  public static final int BOOLEAN = 40;
+  public static final int IF = 41;
+  public static final int ABSTRACT = 47;
   public static final int VOI = 9;
   public static final int EOF = 0;
-  public static final int RETURN = 39;
+  public static final int RETURN = 46;
   public static final int MAYOROIGUAL = 32;
+  public static final int TRUE = 59;
+  public static final int COMILLA = 48;
   public static final int error = 1;
   public static final int COMA = 13;
   public static final int CADENA = 4;
@@ -37,18 +47,27 @@ public class sym {
   public static final int NEGACION = 14;
   public static final int MENOR = 29;
   public static final int CIERRACORCHETE = 17;
-  public static final int BREAK = 38;
+  public static final int keywordInt = 52;
+  public static final int BREAK = 45;
   public static final int PARENDER = 21;
+  public static final int KEYWORDINT = 5;
   public static final int MENOROIGUAL = 33;
   public static final int MAYOR = 28;
   public static final int POTENCIA = 26;
-  public static final int ELSE = 37;
+  public static final int ELSE = 44;
+  public static final int KEYWORDSTRING = 58;
   public static final int LLAVEIZQ = 18;
+  public static final int KEYWORDARRAY = 51;
+  public static final int FLOAT = 38;
+  public static final int NUMERAL = 37;
   public static final int CONJUNCION = 12;
+  public static final int VALIDTERNARIO = 36;
   public static final int DISYUNCION = 11;
+  public static final int FALSE = 60;
   public static final int DIVISION = 25;
-  public static final int ELIF = 36;
+  public static final int ELIF = 43;
   public static final int PRINT = 10;
+  public static final int KEYWORDFUNCTION = 53;
   public static final int MULTIPLICACION = 24;
   public static final String[] terminalNames = new String[] {
   "EOF",
@@ -56,7 +75,7 @@ public class sym {
   "IDENTIFICADOR",
   "ENTERO",
   "CADENA",
-  "INT1",
+  "KEYWORDINT",
   "CHAR1",
   "PUB",
   "PRI",
@@ -85,14 +104,33 @@ public class sym {
   "ASIGNA",
   "MAYOROIGUAL",
   "MENOROIGUAL",
+  "DIVMODULAR",
+  "CONDTERNARIA",
+  "VALIDTERNARIO",
+  "NUMERAL",
+  "FLOAT",
+  "CARACTER",
+  "ARRAY",
   "IF",
   "FOR",
   "ELIF",
   "ELSE",
   "BREAK",
   "RETURN",
-  "BOOLEAN",
-  "ABSTRACT"
+  "ABSTRACT",
+  "COMILLA",
+  "DIGITOS",
+  "KEYWORDBOOLEAN",
+  "KEYWORDARRAY",
+  "keywordInt",
+  "KEYWORDFUNCTION",
+  "KEYWORDMAIN",
+  "KEYWORDNULL",
+  "KEYWORDREAL",
+  "KEYWORDFLOAT",
+  "KEYWORDSTRING",
+  "TRUE",
+  "FALSE"
   };
 }
 

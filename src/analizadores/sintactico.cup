@@ -21,24 +21,24 @@ action code
     String tmp="";
 :}
 
-terminal String IDENTIFICADOR,ENTERO,CADENA,INT1,CHAR1,PUB,PRI,VOI, PRINT;
+terminal String IDENTIFICADOR,ENTERO,CADENA,KEYWORDINT,CHAR1,PUB,PRI,VOI, PRINT;
 terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,
         LLAVEIZQ,LLAVEDER,PARENIZQ,PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,
         MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL,MENOROIGUAL,DIVMODULAR,
-        CONDTERNARIA, VALIDTERNARIO, NUMERAL,FLOAT,CARACTER, ARREGLO,KEYWORDSTRING,ARRAY;
+        CONDTERNARIA, VALIDTERNARIO, NUMERAL,FLOAT,CARACTER,ARRAY;
 
-terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, BOOLEAN, ABSTRACT,FUNCTION,
-          COMILLA,DIGITOS,keywordBooleano, 
-          keywordInt,keywordFunction,keywordMain,KEYWORDNULL;
+terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, ABSTRACT,
+          COMILLA,DIGITOS,KEYWORDBOOLEAN, KEYWORDARRAY,
+          keywordInt, KEYWORDFUNCTION, KEYWORDMAIN, KEYWORDNULL, KEYWORDREAL, KEYWORDFLOAT, KEYWORDSTRING, TRUE, FALSE;
 
 nonterminal  inicio,tipo,main, bloquecodigo, parametros;
 nonterminal funcion,parametros_funcion,comentarioMul,comentarioLin,valoresFuncion,
             expLogica,expAritmetica,expRelacional,expresion,unarios,operadorRelacional,
             operadorLogico,operadorAritmetico,asignacreacexpre,instrucciones,parametrosList, 
-            parametro,literales,caracteres,literal,keyword,keywordReal,keywordArreglo,nulo,
+            parametro,literales,caracteres,literal,keyword,nulo,
             arregloestatico,instruccionReturn,instruccionIf, instruccionElse, 
-            instruccionElif,instruccionFor,instruccionBreak,instruccion,keywordElif,keywordElse,
-            keywordIf,keywordbreak,keywordReturn,keywordFor,ejecutaFuncion;
+            instruccionElif,instruccionFor,instruccionBreak,instruccion,
+            ejecutaFuncion, boolean, bloqueIf, valor;
 
 
 //agregamos la precedencia
@@ -56,9 +56,9 @@ inicio ::= main
 ;
 
 main ::= 
-    INT1 keywordMain PARENIZQ PARENDER bloquecodigo 
+    KEYWORDINT KEYWORDMAIN PARENIZQ PARENDER bloquecodigo 
     |
-    INT1 keywordMain PARENIZQ parametros PARENDER bloquecodigo
+    KEYWORDINT KEYWORDMAIN PARENIZQ parametros PARENDER bloquecodigo
     ;
 
 parametros ::= 
@@ -74,11 +74,15 @@ parametrosList ::=
     ;   
 
 tipo ::= 
-    keywordReal | keywordBooleano| keywordArreglo | keywordInt
+    KEYWORDFLOAT | KEYWORDREAL | KEYWORDBOOLEAN| KEYWORDARRAY | KEYWORDINT
     ;
 
 literal ::= 
-    INT1 | CADENA | BOOLEAN |CHAR1 
+    ENTERO | FLOAT | CADENA | boolean 
+    ;
+
+boolean ::=
+    TRUE | FALSE
     ;
 
 literales ::=
@@ -90,14 +94,8 @@ caracteres ::=
     ; 
 
 keyword ::= 
-    KEYWORDSTRING| INT1 | RETURN | BREAK | IF | ELSE | ELIF | FOR
+    KEYWORDSTRING| KEYWORDINT | RETURN | BREAK | IF | ELSE | ELIF | FOR
     ;
-
-keywordReal ::=  FLOAT;
-keywordArreglo ::= ARRAY;
-keywordBooleano ::=  BOOLEAN;
-keywordInt ::= INT1;
-keywordFunction ::=  FUNCTION;
 
 parametros_funcion ::= 
     PARENIZQ parametros PARENDER
@@ -106,7 +104,7 @@ parametros_funcion ::=
     ;
      
 funcion ::= 
-     keywordFunction IDENTIFICADOR parametros_funcion bloquecodigo
+     KEYWORDFUNCTION IDENTIFICADOR parametros_funcion bloquecodigo
      ;
 
 comentarioMul ::= 
@@ -127,7 +125,7 @@ arregloestatico ::=
 
 
 nulo ::= 
-    (KEYWORDNULL| )
+    KEYWORDNULL
     ;
 
 operadorRelacional ::= 
@@ -141,7 +139,7 @@ operadorLogico ::=
 asignacreacexpre ::= 
      tipo IDENTIFICADOR PUNTOYCOMA
      |
-     tipo IDENTIFICADOR ASIGNA (expresion | literal | arregloestatico) PUNTOYCOMA
+     tipo IDENTIFICADOR ASIGNA (expresion | arregloestatico) PUNTOYCOMA
      ;
 
 instruccion ::= 
@@ -152,50 +150,36 @@ instruccion ::=
 bloquecodigo ::= 
     LLAVEIZQ instrucciones LLAVEDER
     ;
+
 instrucciones ::=
     instrucciones PUNTOYCOMA instruccion | instruccion
     ;
 
-keywordIf ::=  
-    IF
-    ;
+bloqueIf ::= 
+    PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo;
+
 instruccionIf ::= 
-     keywordIf PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo
+     IF bloqueIf
      ;
 
-keywordReturn ::= 
-     RETURN
-     ;
 instruccionReturn ::= 
-     keywordReturn (expresion|literal)
+     RETURN (literal)
      ; 
 
-keywordbreak ::= 
-     BREAK
-     ;
 instruccionBreak ::= 
-     keywordbreak PUNTOYCOMA
+     BREAK PUNTOYCOMA
      ;
 
-keywordFor ::= 
-     FOR
-     ;
 instruccionFor ::= 
-     keywordFor PARENIZQ asignacreacexpre PUNTOYCOMA expresion PARENDER bloquecodigo
+     FOR PARENIZQ asignacreacexpre PUNTOYCOMA expresion PARENDER bloquecodigo
      ;
 
-keywordElse ::= 
-     ELSE
-     ;
 instruccionElse ::= 
-     keywordElse bloquecodigo
+     ELSE bloquecodigo
      ;
 
-keywordElif ::= 
-     ELIF
-     ;
 instruccionElif ::= 
-     keywordElif PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo
+     ELIF bloqueIf
      ;
 
 expresion ::= 
@@ -207,9 +191,9 @@ operadorAritmetico::=
     ;
 
 expAritmetica ::= 
-     ((IDENTIFICADOR|literal|ejecutaFuncion)
+     valor
      operadorAritmetico 
-     (IDENTIFICADOR|literal|ejecutaFuncion)) 
+     valor 
      ; 
 
 expAritmetica ::= 
@@ -217,16 +201,18 @@ expAritmetica ::=
      ;
 
 expRelacional ::= 
-     (IDENTIFICADOR|literal|expresion)operadorRelacional(IDENTIFICADOR|literal|expresion)
+      valor operadorRelacional valor
      ;
+
 expRelacional ::= 
      PARENIZQ expRelacional PARENDER
      ;
 
 expLogica ::= 
-     (IDENTIFICADOR|literal|expresion)
-     (VALIDTERNARIO | operadorLogico)
-     (IDENTIFICADOR|literal|expresion)
+     valor
+     operadorLogico
+     valor
+     | boolean
      ;
 
 expLogica ::= 
@@ -237,24 +223,21 @@ expLogica ::=
     NEGACION expLogica
     ;
 
-expLogica ::= 
-     BOOLEAN
-     ;
-
 ejecutaFuncion ::= 
      IDENTIFICADOR PARENIZQ valoresFuncion  PARENDER
      ;
 
-valoresFuncion ::= 
-     IDENTIFICADOR|literal
+valor ::= 
+     IDENTIFICADOR|literal|ejecutaFuncion
      ;
 
 valoresFuncion ::= 
-     IDENTIFICADOR COMA valoresFuncion
+     valoresFuncion COMA IDENTIFICADOR |
+     valor
      ;
 
 unarios ::=
      literal SUMA SUMA |
      literal RESTA RESTA |
-     NEGACION BOOLEAN 
+     NEGACION boolean 
      ;

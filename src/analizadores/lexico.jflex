@@ -48,8 +48,8 @@ import analizadores.Util;
 
 //simbolos
 
-DISYUNCION = "|"
-CONJUNCION = "&"
+DISYUNCION = "||"
+CONJUNCION = "&&"
 COMA = ","
 NEGACION = "!"
 PUNTOYCOMA = ";"
@@ -104,7 +104,7 @@ DecIntegerLiteral = 0 | [1-9][0-9]*
 
 //palabras reservadas
 
-INT1     = "int"
+KEYWORDINT     = "int"
 CHAR1    = "char"
 PUB      = "public"
 PRI      = "private"
@@ -124,16 +124,19 @@ KEYWORDMAIN = "main"
 KEYWORDARRAY = "array"
 KEYWORDSTRING = "string"
 KEYWORDNULL="null"
+KEYWORDBOOLEAN="boolean"
+KEYWORDREAL="real"
+
+TRUE = "true"
+FALSE = "false"
 
 %%
 
 
 /*Seccion de reglas, aqui se especifica que hacer cuando se encuentra cada lexema*/
 
-<YYINITIAL> "abstract"           { return symbol(sym.ABSTRACT); }
-<YYINITIAL> "boolean"            { return symbol(sym.BOOLEAN); }
 
-<YYINITIAL> {INT1}      { Util.WriteToken("Encontre un tipo ENTERO Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.INT1, yyline, yycolumn,"entero");}
+<YYINITIAL> {KEYWORDINT}      { Util.WriteToken("Encontre un tipo ENTERO Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");}
 <YYINITIAL> {CHAR1}     { Util.WriteToken("Encontre un tipo CHAR1 Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CHAR1, yyline, yycolumn,"char");}
 <YYINITIAL> {PUB}       { Util.WriteToken("Encontre un public Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PUB, yyline, yycolumn,"public");}
 <YYINITIAL> {PRI}       { Util.WriteToken("Encontre un private Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PRI, yyline, yycolumn,"private");}
@@ -149,11 +152,12 @@ KEYWORDNULL="null"
 
 <YYINITIAL> {KEYWORDMAIN}      { Util.WriteToken("Encontre un Kmain Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDMAIN, yyline, yycolumn,"main");}
 <YYINITIAL> {KEYWORDARRAY}   { Util.WriteToken("Encontre un Karray Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDARRAY, yyline, yycolumn,"array");}
-<YYINITIAL> {KEYWORDFLOAT}    		    { Util.WriteToken("Encontre un KFLOAT Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDFLOAT, yyline, yycolumn,"float");}
+<YYINITIAL> {KEYWORDFLOAT}    		    { Util.WriteToken("Encontre un KFLOAT Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDFLOAT, yyline, yycolumn,"keywordfloat");}
 <YYINITIAL> {KEYWORDFUNCTION}    		    { Util.WriteToken("Encontre un KFUNTION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDFUNCTION, yyline, yycolumn,"function");}
 <YYINITIAL> {KEYWORDSTRING}    		    { Util.WriteToken("Encontre un KSTRING Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDSTRING, yyline, yycolumn,"string");}
 <YYINITIAL> {KEYWORDNULL}    		    { Util.WriteToken("Encontre un KNULL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDNULL, yyline, yycolumn,"null");}
-
+<YYINITIAL> {KEYWORDBOOLEAN}    		    { Util.WriteToken("Encontre un KBOOLEAN Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDBOOLEAN, yyline, yycolumn,"boolean");}
+<YYINITIAL> {KEYWORDREAL}    		    { Util.WriteToken("Encontre un KREAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDREAL, yyline, yycolumn,"real");}
 
 
 <YYINITIAL> {DISYUNCION}     	{ Util.WriteToken("Encontre disyuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DISYUNCION, yyline, yycolumn,"diyuncion");}
@@ -185,6 +189,10 @@ KEYWORDNULL="null"
 <YYINITIAL> {CONDTERNARIA}     	{ Util.WriteToken("Encontre un CONDTERNARIA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CONDTERNARIA, yyline, yycolumn,"condternaria");}
 <YYINITIAL> {VALIDTERNARIO}     { Util.WriteToken("Encontre un VALIDTERNARIO Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.VALIDTERNARIO, yyline, yycolumn,"validternario");}
 <YYINITIAL> {NUMERAL}     	    { Util.WriteToken("Encontre un NUMERAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.NUMERAL, yyline, yycolumn,"numeral");}
+
+<YYINITIAL> {TRUE}     	{ Util.WriteToken("Encontre un TRUE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.TRUE, yyline, yycolumn,"true");}
+<YYINITIAL> {FALSE}     	{ Util.WriteToken("Encontre un FALSE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.FALSE, yyline, yycolumn,"false");}
+
 
 <YYINITIAL> {ENTERO}    		{ Util.WriteToken("Encontre un ENTERO  Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.ENTERO, yyline, yycolumn,"entero");}
 <YYINITIAL> {IDENTIFICADOR}     { Util.WriteToken("Encontre un IDENTIFICADOR " + yytext()); return new Symbol(sym.IDENTIFICADOR, yyline, yycolumn,"identificador");}
