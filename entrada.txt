@@ -1,7 +1,8 @@
 int main (int miparam) {
 	#holamundo p12312
 	
-	int temp = 12 * residuo(45);
+	int 12312;
+	int variable = 12 * residuo(45);
 	hola = 50;
 	++ndfvdfv;
 	if (temp == 12) {
@@ -14,8 +15,7 @@ int main (int miparam) {
 	}
 	else
 	{
-		array abc = [123, 2522, unacuestion, "algomas"];
-		
+		array abc = [123, 2522, unacuestion, "algomas  dvsvsfvsf"];	
 	}
 	
 	boolean algo = 12312 <= 12312.12313;
@@ -72,6 +72,3 @@ int main (int miparam) {
 		
 		return fgsfsfgdfvdf;
 }
-
-#Mejoras: strings con espacios
-#Hace falta: operaciones con parentesis

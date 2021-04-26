@@ -29274,3 +29274,3832 @@ Encontre un return Linea: 73 columna 3
 Encontre un IDENTIFICADOR fgsfsfgdfvdf
 Encontre puntoycoma Linea: 73 columna 22
 Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 4 columna 11
+Encontre un ENTERO  Linea: 4 columna 13
+Encontre un MULTIPLICACION Linea: 4 columna 16
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 4 columna 25
+Encontre un ENTERO  Linea: 4 columna 26
+Encontre un PARENDER Linea: 4 columna 28
+Encontre puntoycoma Linea: 4 columna 29
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 5 columna 7
+Encontre un ENTERO  Linea: 5 columna 9
+Encontre puntoycoma Linea: 5 columna 11
+Encontre un SUMA Linea: 6 columna 2
+Encontre un SUMA Linea: 6 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un if Linea: 7 columna 2
+Encontre un PARENIZQ Linea: 7 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 7 columna 11
+Encontre un ENTERO  Linea: 7 columna 14
+Encontre un PARENDER Linea: 7 columna 16
+Encontre un LLAVEIZQ Linea: 7 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 8
+Encontre un read Linea: 8 columna 10
+Encontre un PARENIZQ Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 15
+Encontre puntoycoma Linea: 8 columna 16
+Encontre un break Linea: 9 columna 3
+Encontre puntoycoma Linea: 9 columna 8
+Encontre un LLAVEDER Linea: 10 columna 2
+Encontre un elif Linea: 11 columna 2
+Encontre un PARENIZQ Linea: 11 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 11 columna 13
+Encontre un ENTERO  Linea: 11 columna 16
+Encontre un PARENDER Linea: 11 columna 18
+Encontre un LLAVEIZQ Linea: 11 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 12 columna 8
+Encontre un read Linea: 12 columna 10
+Encontre un PARENIZQ Linea: 12 columna 14
+Encontre un PARENDER Linea: 12 columna 15
+Encontre puntoycoma Linea: 12 columna 16
+Encontre un break Linea: 13 columna 3
+Encontre puntoycoma Linea: 13 columna 8
+Encontre un LLAVEDER Linea: 14 columna 2
+Encontre un else Linea: 15 columna 2
+Encontre un LLAVEIZQ Linea: 16 columna 2
+Encontre un Karray Linea: 17 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 17 columna 13
+Encontre un ABRECORCHETE Linea: 17 columna 15
+Encontre un ENTERO  Linea: 17 columna 16
+Encontre coma Linea: 17 columna 19
+Encontre un ENTERO  Linea: 17 columna 21
+Encontre coma Linea: 17 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 17 columna 38
+Error léxico : '"' en la línea: 17 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 17 y columna: 48
+Encontre un CIERRACORCHETE Linea: 17 columna 49
+Encontre puntoycoma Linea: 17 columna 50
+Encontre un LLAVEDER Linea: 19 columna 2
+Encontre un KBOOLEAN Linea: 21 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 21 columna 15
+Encontre un ENTERO  Linea: 21 columna 17
+Encontre un MENOROIGUAL Linea: 21 columna 23
+Encontre un FLOAT  Linea: 21 columna 25
+Encontre puntoycoma Linea: 21 columna 37
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 22 columna 26
+Encontre un PARENDER Linea: 22 columna 27
+Encontre negacion Linea: 22 columna 29
+Encontre un ASIGNA Linea: 22 columna 30
+Encontre un FLOAT  Linea: 22 columna 31
+Encontre puntoycoma Linea: 22 columna 43
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un ENTERO  Linea: 23 columna 17
+Encontre un IGUAL Linea: 23 columna 23
+Encontre un FLOAT  Linea: 23 columna 25
+Encontre puntoycoma Linea: 23 columna 37
+Encontre un KBOOLEAN Linea: 25 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 25 columna 20
+Encontre un KNULL Linea: 25 columna 22
+Encontre puntoycoma Linea: 25 columna 26
+Encontre un for Linea: 26 columna 2
+Encontre un PARENIZQ Linea: 26 columna 5
+Encontre un tipo ENTERO Linea: 26 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 26 columna 15
+Encontre un ENTERO  Linea: 26 columna 16
+Encontre puntoycoma Linea: 26 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 26 columna 24
+Encontre un ENTERO  Linea: 26 columna 25
+Encontre puntoycoma Linea: 26 columna 27
+Encontre un RESTA Linea: 26 columna 28
+Encontre un RESTA Linea: 26 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 26 columna 35
+Encontre un LLAVEIZQ Linea: 26 columna 37
+Encontre un tipo ENTERO Linea: 27 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 27 columna 14
+Encontre un FLOAT  Linea: 27 columna 15
+Encontre un DIVMODULAR Linea: 27 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 27 columna 31
+Encontre un PARENDER Linea: 27 columna 32
+Encontre puntoycoma Linea: 27 columna 33
+Encontre un tipo ENTERO Linea: 29 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 29 columna 14
+Encontre un ENTERO  Linea: 29 columna 16
+Encontre puntoycoma Linea: 29 columna 24
+Encontre un KBOOLEAN Linea: 31 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 31 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 31 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 31 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 31 columna 48
+Encontre un KBOOLEAN Linea: 33 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 33 columna 18
+Encontre un TRUE Linea: 33 columna 20
+Encontre puntoycoma Linea: 33 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 35 columna 11
+Encontre negacion Linea: 35 columna 13
+Encontre un PARENIZQ Linea: 35 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 35 columna 23
+Encontre un FALSE Linea: 35 columna 26
+Encontre un PARENDER Linea: 35 columna 31
+Encontre puntoycoma Linea: 35 columna 32
+Encontre un print Linea: 37 columna 3
+Encontre un PARENIZQ Linea: 37 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 37 columna 15
+Encontre puntoycoma Linea: 37 columna 16
+Encontre un LLAVEDER Linea: 38 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 42 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 42 columna 17
+Encontre un ENTERO  Linea: 42 columna 18
+Encontre puntoycoma Linea: 42 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 44 columna 17
+Encontre un ASIGNA Linea: 44 columna 18
+Encontre un ENTERO  Linea: 44 columna 19
+Encontre puntoycoma Linea: 44 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 46 columna 9
+Error léxico : '"' en la línea: 46 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 46 y columna: 18
+Encontre puntoycoma Linea: 46 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 48 columna 11
+Encontre un FLOAT  Linea: 48 columna 13
+Encontre puntoycoma Linea: 48 columna 23
+Encontre un KSTRING Linea: 50 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 50 columna 16
+Error léxico : '"' en la línea: 50 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 50 y columna: 25
+Encontre un SUMA Linea: 50 columna 27
+Encontre un ENTERO  Linea: 50 columna 29
+Encontre puntoycoma Linea: 50 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 52 columna 11
+Encontre negacion Linea: 52 columna 13
+Encontre un PARENIZQ Linea: 52 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 52 columna 23
+Encontre un FALSE Linea: 52 columna 26
+Encontre un PARENDER Linea: 52 columna 31
+Encontre puntoycoma Linea: 52 columna 32
+Encontre un tipo ENTERO Linea: 54 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 54 columna 14
+Encontre un FLOAT  Linea: 54 columna 15
+Encontre un DIVMODULAR Linea: 54 columna 21
+Encontre un ENTERO  Linea: 54 columna 23
+Encontre puntoycoma Linea: 54 columna 25
+Encontre un tipo ENTERO Linea: 56 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 56 columna 14
+Encontre un FLOAT  Linea: 56 columna 15
+Encontre un DIVISION Linea: 56 columna 21
+Encontre un ENTERO  Linea: 56 columna 24
+Encontre puntoycoma Linea: 56 columna 26
+Encontre un print Linea: 58 columna 3
+Encontre un PARENIZQ Linea: 58 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 58 columna 15
+Encontre puntoycoma Linea: 58 columna 16
+Encontre un tipo ENTERO Linea: 60 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 60 columna 12
+Encontre un read Linea: 60 columna 14
+Encontre un PARENIZQ Linea: 60 columna 18
+Encontre un PARENDER Linea: 60 columna 19
+Encontre puntoycoma Linea: 60 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 62 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 62 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 62 columna 23
+Encontre un ENTERO  Linea: 62 columna 25
+Encontre un CONDTERNARIA Linea: 62 columna 31
+Encontre un ENTERO  Linea: 62 columna 33
+Encontre puntoycoma Linea: 62 columna 39
+Encontre un KFUNTION Linea: 65 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 65 columna 25
+Encontre un tipo ENTERO Linea: 65 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 65 columna 31
+Encontre un LLAVEIZQ Linea: 65 columna 32
+Encontre un return Linea: 66 columna 4
+Encontre puntoycoma Linea: 66 columna 10
+Encontre un LLAVEDER Linea: 67 columna 3
+Encontre un KFUNTION Linea: 69 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 69 columna 23
+Encontre un tipo ENTERO Linea: 69 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 69 columna 31
+Encontre un LLAVEIZQ Linea: 69 columna 32
+Encontre un return Linea: 70 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 70 columna 19
+Encontre un LLAVEDER Linea: 71 columna 3
+Encontre un return Linea: 73 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 73 columna 22
+Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 4 columna 2
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 4 columna 2
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 4 columna 2
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un ENTERO  Linea: 4 columna 2
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 4 columna 15
+Encontre un ENTERO  Linea: 4 columna 17
+Encontre un MULTIPLICACION Linea: 4 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 4 columna 29
+Encontre un ENTERO  Linea: 4 columna 30
+Encontre un PARENDER Linea: 4 columna 32
+Encontre puntoycoma Linea: 4 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 5 columna 7
+Encontre un ENTERO  Linea: 5 columna 9
+Encontre puntoycoma Linea: 5 columna 11
+Encontre un SUMA Linea: 6 columna 2
+Encontre un SUMA Linea: 6 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un if Linea: 7 columna 2
+Encontre un PARENIZQ Linea: 7 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 7 columna 11
+Encontre un ENTERO  Linea: 7 columna 14
+Encontre un PARENDER Linea: 7 columna 16
+Encontre un LLAVEIZQ Linea: 7 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 8
+Encontre un read Linea: 8 columna 10
+Encontre un PARENIZQ Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 15
+Encontre puntoycoma Linea: 8 columna 16
+Encontre un break Linea: 9 columna 3
+Encontre puntoycoma Linea: 9 columna 8
+Encontre un LLAVEDER Linea: 10 columna 2
+Encontre un elif Linea: 11 columna 2
+Encontre un PARENIZQ Linea: 11 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 11 columna 13
+Encontre un ENTERO  Linea: 11 columna 16
+Encontre un PARENDER Linea: 11 columna 18
+Encontre un LLAVEIZQ Linea: 11 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 12 columna 8
+Encontre un read Linea: 12 columna 10
+Encontre un PARENIZQ Linea: 12 columna 14
+Encontre un PARENDER Linea: 12 columna 15
+Encontre puntoycoma Linea: 12 columna 16
+Encontre un break Linea: 13 columna 3
+Encontre puntoycoma Linea: 13 columna 8
+Encontre un LLAVEDER Linea: 14 columna 2
+Encontre un else Linea: 15 columna 2
+Encontre un LLAVEIZQ Linea: 16 columna 2
+Encontre un Karray Linea: 17 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 17 columna 13
+Encontre un ABRECORCHETE Linea: 17 columna 15
+Encontre un ENTERO  Linea: 17 columna 16
+Encontre coma Linea: 17 columna 19
+Encontre un ENTERO  Linea: 17 columna 21
+Encontre coma Linea: 17 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 17 columna 38
+Error léxico : '"' en la línea: 17 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 17 y columna: 48
+Encontre un CIERRACORCHETE Linea: 17 columna 49
+Encontre puntoycoma Linea: 17 columna 50
+Encontre un LLAVEDER Linea: 19 columna 2
+Encontre un KBOOLEAN Linea: 21 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 21 columna 15
+Encontre un ENTERO  Linea: 21 columna 17
+Encontre un MENOROIGUAL Linea: 21 columna 23
+Encontre un FLOAT  Linea: 21 columna 25
+Encontre puntoycoma Linea: 21 columna 37
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 22 columna 26
+Encontre un PARENDER Linea: 22 columna 27
+Encontre negacion Linea: 22 columna 29
+Encontre un ASIGNA Linea: 22 columna 30
+Encontre un FLOAT  Linea: 22 columna 31
+Encontre puntoycoma Linea: 22 columna 43
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un ENTERO  Linea: 23 columna 17
+Encontre un IGUAL Linea: 23 columna 23
+Encontre un FLOAT  Linea: 23 columna 25
+Encontre puntoycoma Linea: 23 columna 37
+Encontre un KBOOLEAN Linea: 25 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 25 columna 20
+Encontre un KNULL Linea: 25 columna 22
+Encontre puntoycoma Linea: 25 columna 26
+Encontre un for Linea: 26 columna 2
+Encontre un PARENIZQ Linea: 26 columna 5
+Encontre un tipo ENTERO Linea: 26 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 26 columna 15
+Encontre un ENTERO  Linea: 26 columna 16
+Encontre puntoycoma Linea: 26 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 26 columna 24
+Encontre un ENTERO  Linea: 26 columna 25
+Encontre puntoycoma Linea: 26 columna 27
+Encontre un RESTA Linea: 26 columna 28
+Encontre un RESTA Linea: 26 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 26 columna 35
+Encontre un LLAVEIZQ Linea: 26 columna 37
+Encontre un tipo ENTERO Linea: 27 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 27 columna 14
+Encontre un FLOAT  Linea: 27 columna 15
+Encontre un DIVMODULAR Linea: 27 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 27 columna 31
+Encontre un PARENDER Linea: 27 columna 32
+Encontre puntoycoma Linea: 27 columna 33
+Encontre un tipo ENTERO Linea: 29 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 29 columna 14
+Encontre un ENTERO  Linea: 29 columna 16
+Encontre puntoycoma Linea: 29 columna 24
+Encontre un KBOOLEAN Linea: 31 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 31 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 31 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 31 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 31 columna 48
+Encontre un KBOOLEAN Linea: 33 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 33 columna 18
+Encontre un TRUE Linea: 33 columna 20
+Encontre puntoycoma Linea: 33 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 35 columna 11
+Encontre negacion Linea: 35 columna 13
+Encontre un PARENIZQ Linea: 35 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 35 columna 23
+Encontre un FALSE Linea: 35 columna 26
+Encontre un PARENDER Linea: 35 columna 31
+Encontre puntoycoma Linea: 35 columna 32
+Encontre un print Linea: 37 columna 3
+Encontre un PARENIZQ Linea: 37 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 37 columna 15
+Encontre puntoycoma Linea: 37 columna 16
+Encontre un LLAVEDER Linea: 38 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 42 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 42 columna 17
+Encontre un ENTERO  Linea: 42 columna 18
+Encontre puntoycoma Linea: 42 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 44 columna 17
+Encontre un ASIGNA Linea: 44 columna 18
+Encontre un ENTERO  Linea: 44 columna 19
+Encontre puntoycoma Linea: 44 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 46 columna 9
+Error léxico : '"' en la línea: 46 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 46 y columna: 18
+Encontre puntoycoma Linea: 46 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 48 columna 11
+Encontre un FLOAT  Linea: 48 columna 13
+Encontre puntoycoma Linea: 48 columna 23
+Encontre un KSTRING Linea: 50 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 50 columna 16
+Error léxico : '"' en la línea: 50 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 50 y columna: 25
+Encontre un SUMA Linea: 50 columna 27
+Encontre un ENTERO  Linea: 50 columna 29
+Encontre puntoycoma Linea: 50 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 52 columna 11
+Encontre negacion Linea: 52 columna 13
+Encontre un PARENIZQ Linea: 52 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 52 columna 23
+Encontre un FALSE Linea: 52 columna 26
+Encontre un PARENDER Linea: 52 columna 31
+Encontre puntoycoma Linea: 52 columna 32
+Encontre un tipo ENTERO Linea: 54 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 54 columna 14
+Encontre un FLOAT  Linea: 54 columna 15
+Encontre un DIVMODULAR Linea: 54 columna 21
+Encontre un ENTERO  Linea: 54 columna 23
+Encontre puntoycoma Linea: 54 columna 25
+Encontre un tipo ENTERO Linea: 56 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 56 columna 14
+Encontre un FLOAT  Linea: 56 columna 15
+Encontre un DIVISION Linea: 56 columna 21
+Encontre un ENTERO  Linea: 56 columna 24
+Encontre puntoycoma Linea: 56 columna 26
+Encontre un print Linea: 58 columna 3
+Encontre un PARENIZQ Linea: 58 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 58 columna 15
+Encontre puntoycoma Linea: 58 columna 16
+Encontre un tipo ENTERO Linea: 60 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 60 columna 12
+Encontre un read Linea: 60 columna 14
+Encontre un PARENIZQ Linea: 60 columna 18
+Encontre un PARENDER Linea: 60 columna 19
+Encontre puntoycoma Linea: 60 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 62 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 62 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 62 columna 23
+Encontre un ENTERO  Linea: 62 columna 25
+Encontre un CONDTERNARIA Linea: 62 columna 31
+Encontre un ENTERO  Linea: 62 columna 33
+Encontre puntoycoma Linea: 62 columna 39
+Encontre un KFUNTION Linea: 65 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 65 columna 25
+Encontre un tipo ENTERO Linea: 65 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 65 columna 31
+Encontre un LLAVEIZQ Linea: 65 columna 32
+Encontre un return Linea: 66 columna 4
+Encontre puntoycoma Linea: 66 columna 10
+Encontre un LLAVEDER Linea: 67 columna 3
+Encontre un KFUNTION Linea: 69 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 69 columna 23
+Encontre un tipo ENTERO Linea: 69 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 69 columna 31
+Encontre un LLAVEIZQ Linea: 69 columna 32
+Encontre un return Linea: 70 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 70 columna 19
+Encontre un LLAVEDER Linea: 71 columna 3
+Encontre un return Linea: 73 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 73 columna 22
+Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 4 columna 15
+Encontre un tipo ENTERO Linea: 4 columna 17 Este es el ID del token: 5
+Encontre puntoycoma Linea: 4 columna 20
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 5 columna 7
+Encontre un ENTERO  Linea: 5 columna 9
+Encontre puntoycoma Linea: 5 columna 11
+Encontre un SUMA Linea: 6 columna 2
+Encontre un SUMA Linea: 6 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un if Linea: 7 columna 2
+Encontre un PARENIZQ Linea: 7 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 7 columna 11
+Encontre un ENTERO  Linea: 7 columna 14
+Encontre un PARENDER Linea: 7 columna 16
+Encontre un LLAVEIZQ Linea: 7 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 8
+Encontre un read Linea: 8 columna 10
+Encontre un PARENIZQ Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 15
+Encontre puntoycoma Linea: 8 columna 16
+Encontre un break Linea: 9 columna 3
+Encontre puntoycoma Linea: 9 columna 8
+Encontre un LLAVEDER Linea: 10 columna 2
+Encontre un elif Linea: 11 columna 2
+Encontre un PARENIZQ Linea: 11 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 11 columna 13
+Encontre un ENTERO  Linea: 11 columna 16
+Encontre un PARENDER Linea: 11 columna 18
+Encontre un LLAVEIZQ Linea: 11 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 12 columna 8
+Encontre un read Linea: 12 columna 10
+Encontre un PARENIZQ Linea: 12 columna 14
+Encontre un PARENDER Linea: 12 columna 15
+Encontre puntoycoma Linea: 12 columna 16
+Encontre un break Linea: 13 columna 3
+Encontre puntoycoma Linea: 13 columna 8
+Encontre un LLAVEDER Linea: 14 columna 2
+Encontre un else Linea: 15 columna 2
+Encontre un LLAVEIZQ Linea: 16 columna 2
+Encontre un Karray Linea: 17 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 17 columna 13
+Encontre un ABRECORCHETE Linea: 17 columna 15
+Encontre un ENTERO  Linea: 17 columna 16
+Encontre coma Linea: 17 columna 19
+Encontre un ENTERO  Linea: 17 columna 21
+Encontre coma Linea: 17 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 17 columna 38
+Error léxico : '"' en la línea: 17 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 17 y columna: 48
+Encontre un CIERRACORCHETE Linea: 17 columna 49
+Encontre puntoycoma Linea: 17 columna 50
+Encontre un LLAVEDER Linea: 19 columna 2
+Encontre un KBOOLEAN Linea: 21 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 21 columna 15
+Encontre un ENTERO  Linea: 21 columna 17
+Encontre un MENOROIGUAL Linea: 21 columna 23
+Encontre un FLOAT  Linea: 21 columna 25
+Encontre puntoycoma Linea: 21 columna 37
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 22 columna 26
+Encontre un PARENDER Linea: 22 columna 27
+Encontre negacion Linea: 22 columna 29
+Encontre un ASIGNA Linea: 22 columna 30
+Encontre un FLOAT  Linea: 22 columna 31
+Encontre puntoycoma Linea: 22 columna 43
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un ENTERO  Linea: 23 columna 17
+Encontre un IGUAL Linea: 23 columna 23
+Encontre un FLOAT  Linea: 23 columna 25
+Encontre puntoycoma Linea: 23 columna 37
+Encontre un KBOOLEAN Linea: 25 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 25 columna 20
+Encontre un KNULL Linea: 25 columna 22
+Encontre puntoycoma Linea: 25 columna 26
+Encontre un for Linea: 26 columna 2
+Encontre un PARENIZQ Linea: 26 columna 5
+Encontre un tipo ENTERO Linea: 26 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 26 columna 15
+Encontre un ENTERO  Linea: 26 columna 16
+Encontre puntoycoma Linea: 26 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 26 columna 24
+Encontre un ENTERO  Linea: 26 columna 25
+Encontre puntoycoma Linea: 26 columna 27
+Encontre un RESTA Linea: 26 columna 28
+Encontre un RESTA Linea: 26 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 26 columna 35
+Encontre un LLAVEIZQ Linea: 26 columna 37
+Encontre un tipo ENTERO Linea: 27 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 27 columna 14
+Encontre un FLOAT  Linea: 27 columna 15
+Encontre un DIVMODULAR Linea: 27 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 27 columna 31
+Encontre un PARENDER Linea: 27 columna 32
+Encontre puntoycoma Linea: 27 columna 33
+Encontre un tipo ENTERO Linea: 29 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 29 columna 14
+Encontre un ENTERO  Linea: 29 columna 16
+Encontre puntoycoma Linea: 29 columna 24
+Encontre un KBOOLEAN Linea: 31 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 31 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 31 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 31 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 31 columna 48
+Encontre un KBOOLEAN Linea: 33 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 33 columna 18
+Encontre un TRUE Linea: 33 columna 20
+Encontre puntoycoma Linea: 33 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 35 columna 11
+Encontre negacion Linea: 35 columna 13
+Encontre un PARENIZQ Linea: 35 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 35 columna 23
+Encontre un FALSE Linea: 35 columna 26
+Encontre un PARENDER Linea: 35 columna 31
+Encontre puntoycoma Linea: 35 columna 32
+Encontre un print Linea: 37 columna 3
+Encontre un PARENIZQ Linea: 37 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 37 columna 15
+Encontre puntoycoma Linea: 37 columna 16
+Encontre un LLAVEDER Linea: 38 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 42 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 42 columna 17
+Encontre un ENTERO  Linea: 42 columna 18
+Encontre puntoycoma Linea: 42 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 44 columna 17
+Encontre un ASIGNA Linea: 44 columna 18
+Encontre un ENTERO  Linea: 44 columna 19
+Encontre puntoycoma Linea: 44 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 46 columna 9
+Error léxico : '"' en la línea: 46 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 46 y columna: 18
+Encontre puntoycoma Linea: 46 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 48 columna 11
+Encontre un FLOAT  Linea: 48 columna 13
+Encontre puntoycoma Linea: 48 columna 23
+Encontre un KSTRING Linea: 50 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 50 columna 16
+Error léxico : '"' en la línea: 50 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 50 y columna: 25
+Encontre un SUMA Linea: 50 columna 27
+Encontre un ENTERO  Linea: 50 columna 29
+Encontre puntoycoma Linea: 50 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 52 columna 11
+Encontre negacion Linea: 52 columna 13
+Encontre un PARENIZQ Linea: 52 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 52 columna 23
+Encontre un FALSE Linea: 52 columna 26
+Encontre un PARENDER Linea: 52 columna 31
+Encontre puntoycoma Linea: 52 columna 32
+Encontre un tipo ENTERO Linea: 54 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 54 columna 14
+Encontre un FLOAT  Linea: 54 columna 15
+Encontre un DIVMODULAR Linea: 54 columna 21
+Encontre un ENTERO  Linea: 54 columna 23
+Encontre puntoycoma Linea: 54 columna 25
+Encontre un tipo ENTERO Linea: 56 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 56 columna 14
+Encontre un FLOAT  Linea: 56 columna 15
+Encontre un DIVISION Linea: 56 columna 21
+Encontre un ENTERO  Linea: 56 columna 24
+Encontre puntoycoma Linea: 56 columna 26
+Encontre un print Linea: 58 columna 3
+Encontre un PARENIZQ Linea: 58 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 58 columna 15
+Encontre puntoycoma Linea: 58 columna 16
+Encontre un tipo ENTERO Linea: 60 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 60 columna 12
+Encontre un read Linea: 60 columna 14
+Encontre un PARENIZQ Linea: 60 columna 18
+Encontre un PARENDER Linea: 60 columna 19
+Encontre puntoycoma Linea: 60 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 62 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 62 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 62 columna 23
+Encontre un ENTERO  Linea: 62 columna 25
+Encontre un CONDTERNARIA Linea: 62 columna 31
+Encontre un ENTERO  Linea: 62 columna 33
+Encontre puntoycoma Linea: 62 columna 39
+Encontre un KFUNTION Linea: 65 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 65 columna 25
+Encontre un tipo ENTERO Linea: 65 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 65 columna 31
+Encontre un LLAVEIZQ Linea: 65 columna 32
+Encontre un return Linea: 66 columna 4
+Encontre puntoycoma Linea: 66 columna 10
+Encontre un LLAVEDER Linea: 67 columna 3
+Encontre un KFUNTION Linea: 69 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 69 columna 23
+Encontre un tipo ENTERO Linea: 69 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 69 columna 31
+Encontre un LLAVEIZQ Linea: 69 columna 32
+Encontre un return Linea: 70 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 70 columna 19
+Encontre un LLAVEDER Linea: 71 columna 3
+Encontre un return Linea: 73 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 73 columna 22
+Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR oindiofvndofv
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Error léxico : '"' en la línea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Error léxico : '"' en la línea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Error léxico : '"' en la línea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 12
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Error léxico : '"' en la línea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Error léxico : '"' en la línea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Error léxico : '"' en la línea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 12
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Error léxico : '"' en la línea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+Error léxico : '"' en la línea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Error léxico : '"' en la línea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Error léxico : '"' en la línea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+Error léxico : '"' en la línea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 12
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+----> Error lexico! : '"' en la linea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+----> Error lexico! : '"' en la linea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+----> Error lexico! : '"' en la linea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+----> Error lexico! : '"' en la linea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 4 columna 15
+Encontre un ENTERO  Linea: 4 columna 17
+Encontre un MULTIPLICACION Linea: 4 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 4 columna 29
+Encontre un ENTERO  Linea: 4 columna 30
+Encontre un PARENDER Linea: 4 columna 32
+Encontre puntoycoma Linea: 4 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 5 columna 7
+Encontre un ENTERO  Linea: 5 columna 9
+Encontre puntoycoma Linea: 5 columna 11
+Encontre un SUMA Linea: 6 columna 2
+Encontre un SUMA Linea: 6 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un if Linea: 7 columna 2
+Encontre un PARENIZQ Linea: 7 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 7 columna 11
+Encontre un ENTERO  Linea: 7 columna 14
+Encontre un PARENDER Linea: 7 columna 16
+Encontre un LLAVEIZQ Linea: 7 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 8
+Encontre un read Linea: 8 columna 10
+Encontre un PARENIZQ Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 15
+Encontre puntoycoma Linea: 8 columna 16
+Encontre un break Linea: 9 columna 3
+Encontre puntoycoma Linea: 9 columna 8
+Encontre un LLAVEDER Linea: 10 columna 2
+Encontre un elif Linea: 11 columna 2
+Encontre un PARENIZQ Linea: 11 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 11 columna 13
+Encontre un ENTERO  Linea: 11 columna 16
+Encontre un PARENDER Linea: 11 columna 18
+Encontre un LLAVEIZQ Linea: 11 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 12 columna 8
+Encontre un read Linea: 12 columna 10
+Encontre un PARENIZQ Linea: 12 columna 14
+Encontre un PARENDER Linea: 12 columna 15
+Encontre puntoycoma Linea: 12 columna 16
+Encontre un break Linea: 13 columna 3
+Encontre puntoycoma Linea: 13 columna 8
+Encontre un LLAVEDER Linea: 14 columna 2
+Encontre un else Linea: 15 columna 2
+Encontre un LLAVEIZQ Linea: 16 columna 2
+Encontre un Karray Linea: 17 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 17 columna 13
+Encontre un ABRECORCHETE Linea: 17 columna 15
+Encontre un ENTERO  Linea: 17 columna 16
+Encontre coma Linea: 17 columna 19
+Encontre un ENTERO  Linea: 17 columna 21
+Encontre coma Linea: 17 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 17 columna 38
+----> Error lexico! : '"' en la linea: 17 y columna: 40
+Encontre un IDENTIFICADOR algomas
+----> Error lexico! : '"' en la linea: 17 y columna: 48
+Encontre un CIERRACORCHETE Linea: 17 columna 49
+Encontre puntoycoma Linea: 17 columna 50
+Encontre un LLAVEDER Linea: 19 columna 2
+Encontre un KBOOLEAN Linea: 21 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 21 columna 15
+Encontre un ENTERO  Linea: 21 columna 17
+Encontre un MENOROIGUAL Linea: 21 columna 23
+Encontre un FLOAT  Linea: 21 columna 25
+Encontre puntoycoma Linea: 21 columna 37
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 22 columna 26
+Encontre un PARENDER Linea: 22 columna 27
+Encontre negacion Linea: 22 columna 29
+Encontre un ASIGNA Linea: 22 columna 30
+Encontre un FLOAT  Linea: 22 columna 31
+Encontre puntoycoma Linea: 22 columna 43
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un ENTERO  Linea: 23 columna 17
+Encontre un IGUAL Linea: 23 columna 23
+Encontre un FLOAT  Linea: 23 columna 25
+Encontre puntoycoma Linea: 23 columna 37
+Encontre un KBOOLEAN Linea: 25 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 25 columna 20
+Encontre un KNULL Linea: 25 columna 22
+Encontre puntoycoma Linea: 25 columna 26
+Encontre un for Linea: 26 columna 2
+Encontre un PARENIZQ Linea: 26 columna 5
+Encontre un tipo ENTERO Linea: 26 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 26 columna 15
+Encontre un ENTERO  Linea: 26 columna 16
+Encontre puntoycoma Linea: 26 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 26 columna 24
+Encontre un ENTERO  Linea: 26 columna 25
+Encontre puntoycoma Linea: 26 columna 27
+Encontre un RESTA Linea: 26 columna 28
+Encontre un RESTA Linea: 26 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 26 columna 35
+Encontre un LLAVEIZQ Linea: 26 columna 37
+Encontre un tipo ENTERO Linea: 27 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 27 columna 14
+Encontre un FLOAT  Linea: 27 columna 15
+Encontre un DIVMODULAR Linea: 27 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 27 columna 31
+Encontre un PARENDER Linea: 27 columna 32
+Encontre puntoycoma Linea: 27 columna 33
+Encontre un tipo ENTERO Linea: 29 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 29 columna 14
+Encontre un ENTERO  Linea: 29 columna 16
+Encontre puntoycoma Linea: 29 columna 24
+Encontre un KBOOLEAN Linea: 31 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 31 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 31 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 31 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 31 columna 48
+Encontre un KBOOLEAN Linea: 33 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 33 columna 18
+Encontre un TRUE Linea: 33 columna 20
+Encontre puntoycoma Linea: 33 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 35 columna 11
+Encontre negacion Linea: 35 columna 13
+Encontre un PARENIZQ Linea: 35 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 35 columna 23
+Encontre un FALSE Linea: 35 columna 26
+Encontre un PARENDER Linea: 35 columna 31
+Encontre puntoycoma Linea: 35 columna 32
+Encontre un print Linea: 37 columna 3
+Encontre un PARENIZQ Linea: 37 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 37 columna 15
+Encontre puntoycoma Linea: 37 columna 16
+Encontre un LLAVEDER Linea: 38 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 42 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 42 columna 17
+Encontre un ENTERO  Linea: 42 columna 18
+Encontre puntoycoma Linea: 42 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 44 columna 17
+Encontre un ASIGNA Linea: 44 columna 18
+Encontre un ENTERO  Linea: 44 columna 19
+Encontre puntoycoma Linea: 44 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 46 columna 9
+----> Error lexico! : '"' en la linea: 46 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 46 y columna: 18
+Encontre puntoycoma Linea: 46 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 48 columna 11
+Encontre un FLOAT  Linea: 48 columna 13
+Encontre puntoycoma Linea: 48 columna 23
+Encontre un KSTRING Linea: 50 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 50 columna 16
+----> Error lexico! : '"' en la linea: 50 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 50 y columna: 25
+Encontre un SUMA Linea: 50 columna 27
+Encontre un ENTERO  Linea: 50 columna 29
+Encontre puntoycoma Linea: 50 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 52 columna 11
+Encontre negacion Linea: 52 columna 13
+Encontre un PARENIZQ Linea: 52 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 52 columna 23
+Encontre un FALSE Linea: 52 columna 26
+Encontre un PARENDER Linea: 52 columna 31
+Encontre puntoycoma Linea: 52 columna 32
+Encontre un tipo ENTERO Linea: 54 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 54 columna 14
+Encontre un FLOAT  Linea: 54 columna 15
+Encontre un DIVMODULAR Linea: 54 columna 21
+Encontre un ENTERO  Linea: 54 columna 23
+Encontre puntoycoma Linea: 54 columna 25
+Encontre un tipo ENTERO Linea: 56 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 56 columna 14
+Encontre un FLOAT  Linea: 56 columna 15
+Encontre un DIVISION Linea: 56 columna 21
+Encontre un ENTERO  Linea: 56 columna 24
+Encontre puntoycoma Linea: 56 columna 26
+Encontre un print Linea: 58 columna 3
+Encontre un PARENIZQ Linea: 58 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 58 columna 15
+Encontre puntoycoma Linea: 58 columna 16
+Encontre un tipo ENTERO Linea: 60 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 60 columna 12
+Encontre un read Linea: 60 columna 14
+Encontre un PARENIZQ Linea: 60 columna 18
+Encontre un PARENDER Linea: 60 columna 19
+Encontre puntoycoma Linea: 60 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 62 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 62 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 62 columna 23
+Encontre un ENTERO  Linea: 62 columna 25
+Encontre un CONDTERNARIA Linea: 62 columna 31
+Encontre un ENTERO  Linea: 62 columna 33
+Encontre puntoycoma Linea: 62 columna 39
+Encontre un KFUNTION Linea: 65 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 65 columna 25
+Encontre un tipo ENTERO Linea: 65 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 65 columna 31
+Encontre un LLAVEIZQ Linea: 65 columna 32
+Encontre un return Linea: 66 columna 4
+Encontre puntoycoma Linea: 66 columna 10
+Encontre un LLAVEDER Linea: 67 columna 3
+Encontre un KFUNTION Linea: 69 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 69 columna 23
+Encontre un tipo ENTERO Linea: 69 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 69 columna 31
+Encontre un LLAVEIZQ Linea: 69 columna 32
+Encontre un return Linea: 70 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 70 columna 19
+Encontre un LLAVEDER Linea: 71 columna 3
+Encontre un return Linea: 73 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 73 columna 22
+Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 4 columna 15
+Encontre un ENTERO  Linea: 4 columna 17
+Encontre un MULTIPLICACION Linea: 4 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 4 columna 29
+Encontre un ENTERO  Linea: 4 columna 30
+Encontre un PARENDER Linea: 4 columna 32
+Encontre puntoycoma Linea: 4 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 5 columna 7
+Encontre un ENTERO  Linea: 5 columna 9
+Encontre puntoycoma Linea: 5 columna 11
+Encontre un SUMA Linea: 6 columna 2
+Encontre un SUMA Linea: 6 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un if Linea: 7 columna 2
+Encontre un PARENIZQ Linea: 7 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 7 columna 11
+Encontre un ENTERO  Linea: 7 columna 14
+Encontre un PARENDER Linea: 7 columna 16
+Encontre un LLAVEIZQ Linea: 7 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 8 columna 8
+Encontre un read Linea: 8 columna 10
+Encontre un PARENIZQ Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 15
+Encontre puntoycoma Linea: 8 columna 16
+Encontre un break Linea: 9 columna 3
+Encontre puntoycoma Linea: 9 columna 8
+Encontre un LLAVEDER Linea: 10 columna 2
+Encontre un elif Linea: 11 columna 2
+Encontre un PARENIZQ Linea: 11 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 11 columna 13
+Encontre un ENTERO  Linea: 11 columna 16
+Encontre un PARENDER Linea: 11 columna 18
+Encontre un LLAVEIZQ Linea: 11 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 12 columna 8
+Encontre un read Linea: 12 columna 10
+Encontre un PARENIZQ Linea: 12 columna 14
+Encontre un PARENDER Linea: 12 columna 15
+Encontre puntoycoma Linea: 12 columna 16
+Encontre un break Linea: 13 columna 3
+Encontre puntoycoma Linea: 13 columna 8
+Encontre un LLAVEDER Linea: 14 columna 2
+Encontre un else Linea: 15 columna 2
+Encontre un LLAVEIZQ Linea: 16 columna 2
+Encontre un Karray Linea: 17 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 17 columna 13
+Encontre un ABRECORCHETE Linea: 17 columna 15
+Encontre un ENTERO  Linea: 17 columna 16
+Encontre coma Linea: 17 columna 19
+Encontre un ENTERO  Linea: 17 columna 21
+Encontre coma Linea: 17 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 17 columna 38
+----> Error lexico! : '"' en la linea: 17 y columna: 40
+Encontre un IDENTIFICADOR algomas
+----> Error lexico! : '"' en la linea: 17 y columna: 48
+Encontre un CIERRACORCHETE Linea: 17 columna 49
+Encontre puntoycoma Linea: 17 columna 50
+Encontre un LLAVEDER Linea: 19 columna 2
+Encontre un KBOOLEAN Linea: 21 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 21 columna 15
+Encontre un ENTERO  Linea: 21 columna 17
+Encontre un MENOROIGUAL Linea: 21 columna 23
+Encontre un FLOAT  Linea: 21 columna 25
+Encontre puntoycoma Linea: 21 columna 37
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 22 columna 26
+Encontre un PARENDER Linea: 22 columna 27
+Encontre negacion Linea: 22 columna 29
+Encontre un ASIGNA Linea: 22 columna 30
+Encontre un FLOAT  Linea: 22 columna 31
+Encontre puntoycoma Linea: 22 columna 43
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un ENTERO  Linea: 23 columna 17
+Encontre un IGUAL Linea: 23 columna 23
+Encontre un FLOAT  Linea: 23 columna 25
+Encontre puntoycoma Linea: 23 columna 37
+Encontre un KBOOLEAN Linea: 25 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 25 columna 20
+Encontre un KNULL Linea: 25 columna 22
+Encontre puntoycoma Linea: 25 columna 26
+Encontre un for Linea: 26 columna 2
+Encontre un PARENIZQ Linea: 26 columna 5
+Encontre un tipo ENTERO Linea: 26 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 26 columna 15
+Encontre un ENTERO  Linea: 26 columna 16
+Encontre puntoycoma Linea: 26 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 26 columna 24
+Encontre un ENTERO  Linea: 26 columna 25
+Encontre puntoycoma Linea: 26 columna 27
+Encontre un RESTA Linea: 26 columna 28
+Encontre un RESTA Linea: 26 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 26 columna 35
+Encontre un LLAVEIZQ Linea: 26 columna 37
+Encontre un tipo ENTERO Linea: 27 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 27 columna 14
+Encontre un FLOAT  Linea: 27 columna 15
+Encontre un DIVMODULAR Linea: 27 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 27 columna 31
+Encontre un PARENDER Linea: 27 columna 32
+Encontre puntoycoma Linea: 27 columna 33
+Encontre un tipo ENTERO Linea: 29 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 29 columna 14
+Encontre un ENTERO  Linea: 29 columna 16
+Encontre puntoycoma Linea: 29 columna 24
+Encontre un KBOOLEAN Linea: 31 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 31 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 31 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 31 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 31 columna 48
+Encontre un KBOOLEAN Linea: 33 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 33 columna 18
+Encontre un TRUE Linea: 33 columna 20
+Encontre puntoycoma Linea: 33 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 35 columna 11
+Encontre negacion Linea: 35 columna 13
+Encontre un PARENIZQ Linea: 35 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 35 columna 23
+Encontre un FALSE Linea: 35 columna 26
+Encontre un PARENDER Linea: 35 columna 31
+Encontre puntoycoma Linea: 35 columna 32
+Encontre un print Linea: 37 columna 3
+Encontre un PARENIZQ Linea: 37 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 37 columna 15
+Encontre puntoycoma Linea: 37 columna 16
+Encontre un LLAVEDER Linea: 38 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 42 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 42 columna 17
+Encontre un ENTERO  Linea: 42 columna 18
+Encontre puntoycoma Linea: 42 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 44 columna 17
+Encontre un ASIGNA Linea: 44 columna 18
+Encontre un ENTERO  Linea: 44 columna 19
+Encontre puntoycoma Linea: 44 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 46 columna 9
+----> Error lexico! : '"' en la linea: 46 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 46 y columna: 18
+Encontre puntoycoma Linea: 46 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 48 columna 11
+Encontre un FLOAT  Linea: 48 columna 13
+Encontre puntoycoma Linea: 48 columna 23
+Encontre un KSTRING Linea: 50 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 50 columna 16
+----> Error lexico! : '"' en la linea: 50 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 50 y columna: 25
+Encontre un SUMA Linea: 50 columna 27
+Encontre un ENTERO  Linea: 50 columna 29
+Encontre puntoycoma Linea: 50 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 52 columna 11
+Encontre negacion Linea: 52 columna 13
+Encontre un PARENIZQ Linea: 52 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 52 columna 23
+Encontre un FALSE Linea: 52 columna 26
+Encontre un PARENDER Linea: 52 columna 31
+Encontre puntoycoma Linea: 52 columna 32
+Encontre un tipo ENTERO Linea: 54 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 54 columna 14
+Encontre un FLOAT  Linea: 54 columna 15
+Encontre un DIVMODULAR Linea: 54 columna 21
+Encontre un ENTERO  Linea: 54 columna 23
+Encontre puntoycoma Linea: 54 columna 25
+Encontre un tipo ENTERO Linea: 56 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 56 columna 14
+Encontre un FLOAT  Linea: 56 columna 15
+Encontre un DIVISION Linea: 56 columna 21
+Encontre un ENTERO  Linea: 56 columna 24
+Encontre puntoycoma Linea: 56 columna 26
+Encontre un print Linea: 58 columna 3
+Encontre un PARENIZQ Linea: 58 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 58 columna 15
+Encontre puntoycoma Linea: 58 columna 16
+Encontre un tipo ENTERO Linea: 60 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 60 columna 12
+Encontre un read Linea: 60 columna 14
+Encontre un PARENIZQ Linea: 60 columna 18
+Encontre un PARENDER Linea: 60 columna 19
+Encontre puntoycoma Linea: 60 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 62 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 62 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 62 columna 23
+Encontre un ENTERO  Linea: 62 columna 25
+Encontre un CONDTERNARIA Linea: 62 columna 31
+Encontre un ENTERO  Linea: 62 columna 33
+Encontre puntoycoma Linea: 62 columna 39
+Encontre un KFUNTION Linea: 65 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 65 columna 25
+Encontre un tipo ENTERO Linea: 65 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 65 columna 31
+Encontre un LLAVEIZQ Linea: 65 columna 32
+Encontre un return Linea: 66 columna 4
+Encontre puntoycoma Linea: 66 columna 10
+Encontre un LLAVEDER Linea: 67 columna 3
+Encontre un KFUNTION Linea: 69 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 69 columna 23
+Encontre un tipo ENTERO Linea: 69 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 69 columna 31
+Encontre un LLAVEIZQ Linea: 69 columna 32
+Encontre un return Linea: 70 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 70 columna 19
+Encontre un LLAVEDER Linea: 71 columna 3
+Encontre un return Linea: 73 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 73 columna 22
+Encontre un LLAVEDER Linea: 74 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 11
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+----> Error lexico! : '"' en la linea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+----> Error lexico! : '"' en la linea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+----> Error lexico! : '"' en la linea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+----> Error lexico! : '"' en la linea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 11
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+----> Error lexico! : '"' en la linea: 18 y columna: 40
+Encontre un IDENTIFICADOR algomas
+----> Error lexico! : '"' en la linea: 18 y columna: 48
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+----> Error lexico! : '"' en la linea: 47 y columna: 11
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 47 y columna: 18
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+----> Error lexico! : '"' en la linea: 51 y columna: 18
+Encontre un IDENTIFICADOR vdfvdf
+----> Error lexico! : '"' en la linea: 51 y columna: 25
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 11
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Encontre un CIERRACORCHETE Linea: 18 columna 49
+Encontre puntoycoma Linea: 18 columna 50
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 11
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Encontre un CIERRACORCHETE Linea: 18 columna 60
+Encontre puntoycoma Linea: 18 columna 61
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1
+Encontre un tipo ENTERO Linea: 1 columna 1 Este es el ID del token: 5
+Encontre un Kmain Linea: 1 columna 5
+Encontre un PARENIZQ Linea: 1 columna 10
+Encontre un tipo ENTERO Linea: 1 columna 11 Este es el ID del token: 5
+Encontre un IDENTIFICADOR miparam
+Encontre un PARENDER Linea: 1 columna 22
+Encontre un LLAVEIZQ Linea: 1 columna 24
+Encontre un tipo ENTERO Linea: 4 columna 2 Este es el ID del token: 5
+Encontre un ENTERO  Linea: 4 columna 6
+Encontre puntoycoma Linea: 4 columna 11
+Encontre un tipo ENTERO Linea: 5 columna 2 Este es el ID del token: 5
+Encontre un IDENTIFICADOR variable
+Encontre un ASIGNA Linea: 5 columna 15
+Encontre un ENTERO  Linea: 5 columna 17
+Encontre un MULTIPLICACION Linea: 5 columna 20
+Encontre un IDENTIFICADOR residuo
+Encontre un PARENIZQ Linea: 5 columna 29
+Encontre un ENTERO  Linea: 5 columna 30
+Encontre un PARENDER Linea: 5 columna 32
+Encontre puntoycoma Linea: 5 columna 33
+Encontre un IDENTIFICADOR hola
+Encontre un ASIGNA Linea: 6 columna 7
+Encontre un ENTERO  Linea: 6 columna 9
+Encontre puntoycoma Linea: 6 columna 11
+Encontre un SUMA Linea: 7 columna 2
+Encontre un SUMA Linea: 7 columna 3
+Encontre un IDENTIFICADOR ndfvdfv
+Encontre puntoycoma Linea: 7 columna 11
+Encontre un if Linea: 8 columna 2
+Encontre un PARENIZQ Linea: 8 columna 5
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 8 columna 11
+Encontre un ENTERO  Linea: 8 columna 14
+Encontre un PARENDER Linea: 8 columna 16
+Encontre un LLAVEIZQ Linea: 8 columna 18
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 9 columna 8
+Encontre un read Linea: 9 columna 10
+Encontre un PARENIZQ Linea: 9 columna 14
+Encontre un PARENDER Linea: 9 columna 15
+Encontre puntoycoma Linea: 9 columna 16
+Encontre un break Linea: 10 columna 3
+Encontre puntoycoma Linea: 10 columna 8
+Encontre un LLAVEDER Linea: 11 columna 2
+Encontre un elif Linea: 12 columna 2
+Encontre un PARENIZQ Linea: 12 columna 7
+Encontre un IDENTIFICADOR temp
+Encontre un IGUAL Linea: 12 columna 13
+Encontre un ENTERO  Linea: 12 columna 16
+Encontre un PARENDER Linea: 12 columna 18
+Encontre un LLAVEIZQ Linea: 12 columna 20
+Encontre un IDENTIFICADOR temp
+Encontre un ASIGNA Linea: 13 columna 8
+Encontre un read Linea: 13 columna 10
+Encontre un PARENIZQ Linea: 13 columna 14
+Encontre un PARENDER Linea: 13 columna 15
+Encontre puntoycoma Linea: 13 columna 16
+Encontre un break Linea: 14 columna 3
+Encontre puntoycoma Linea: 14 columna 8
+Encontre un LLAVEDER Linea: 15 columna 2
+Encontre un else Linea: 16 columna 2
+Encontre un LLAVEIZQ Linea: 17 columna 2
+Encontre un Karray Linea: 18 columna 3
+Encontre un IDENTIFICADOR abc
+Encontre un ASIGNA Linea: 18 columna 13
+Encontre un ABRECORCHETE Linea: 18 columna 15
+Encontre un ENTERO  Linea: 18 columna 16
+Encontre coma Linea: 18 columna 19
+Encontre un ENTERO  Linea: 18 columna 21
+Encontre coma Linea: 18 columna 25
+Encontre un IDENTIFICADOR unacuestion
+Encontre coma Linea: 18 columna 38
+Encontre un CIERRACORCHETE Linea: 18 columna 60
+Encontre puntoycoma Linea: 18 columna 61
+Encontre un LLAVEDER Linea: 20 columna 2
+Encontre un KBOOLEAN Linea: 22 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 22 columna 15
+Encontre un ENTERO  Linea: 22 columna 17
+Encontre un MENOROIGUAL Linea: 22 columna 23
+Encontre un FLOAT  Linea: 22 columna 25
+Encontre puntoycoma Linea: 22 columna 37
+Encontre un KBOOLEAN Linea: 23 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 23 columna 15
+Encontre un IDENTIFICADOR mifuncion
+Encontre un PARENIZQ Linea: 23 columna 26
+Encontre un PARENDER Linea: 23 columna 27
+Encontre negacion Linea: 23 columna 29
+Encontre un ASIGNA Linea: 23 columna 30
+Encontre un FLOAT  Linea: 23 columna 31
+Encontre puntoycoma Linea: 23 columna 43
+Encontre un KBOOLEAN Linea: 24 columna 2
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 24 columna 15
+Encontre un ENTERO  Linea: 24 columna 17
+Encontre un IGUAL Linea: 24 columna 23
+Encontre un FLOAT  Linea: 24 columna 25
+Encontre puntoycoma Linea: 24 columna 37
+Encontre un KBOOLEAN Linea: 26 columna 2
+Encontre un IDENTIFICADOR dfvdfvdfv
+Encontre un ASIGNA Linea: 26 columna 20
+Encontre un KNULL Linea: 26 columna 22
+Encontre puntoycoma Linea: 26 columna 26
+Encontre un for Linea: 27 columna 2
+Encontre un PARENIZQ Linea: 27 columna 5
+Encontre un tipo ENTERO Linea: 27 columna 6 Este es el ID del token: 5
+Encontre un IDENTIFICADOR valor
+Encontre un ASIGNA Linea: 27 columna 15
+Encontre un ENTERO  Linea: 27 columna 16
+Encontre puntoycoma Linea: 27 columna 18
+Encontre un IDENTIFICADOR valor
+Encontre un MENOR Linea: 27 columna 24
+Encontre un ENTERO  Linea: 27 columna 25
+Encontre puntoycoma Linea: 27 columna 27
+Encontre un RESTA Linea: 27 columna 28
+Encontre un RESTA Linea: 27 columna 29
+Encontre un IDENTIFICADOR valor
+Encontre un PARENDER Linea: 27 columna 35
+Encontre un LLAVEIZQ Linea: 27 columna 37
+Encontre un tipo ENTERO Linea: 28 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 28 columna 14
+Encontre un FLOAT  Linea: 28 columna 15
+Encontre un DIVMODULAR Linea: 28 columna 21
+Encontre un IDENTIFICADOR getValue
+Encontre un PARENIZQ Linea: 28 columna 31
+Encontre un PARENDER Linea: 28 columna 32
+Encontre puntoycoma Linea: 28 columna 33
+Encontre un tipo ENTERO Linea: 30 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 30 columna 14
+Encontre un ENTERO  Linea: 30 columna 16
+Encontre puntoycoma Linea: 30 columna 24
+Encontre un KBOOLEAN Linea: 32 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 32 columna 18
+Encontre un IDENTIFICADOR vpsppoa
+Encontre conjuncion Linea: 32 columna 28
+Encontre un IDENTIFICADOR vkndofv
+Encontre conjuncion Linea: 32 columna 39
+Encontre un IDENTIFICADOR nonofv
+Encontre puntoycoma Linea: 32 columna 48
+Encontre un KBOOLEAN Linea: 34 columna 3
+Encontre un IDENTIFICADOR istrue
+Encontre un ASIGNA Linea: 34 columna 18
+Encontre un TRUE Linea: 34 columna 20
+Encontre puntoycoma Linea: 34 columna 24
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 36 columna 11
+Encontre negacion Linea: 36 columna 13
+Encontre un PARENIZQ Linea: 36 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 36 columna 23
+Encontre un FALSE Linea: 36 columna 26
+Encontre un PARENDER Linea: 36 columna 31
+Encontre puntoycoma Linea: 36 columna 32
+Encontre un print Linea: 38 columna 3
+Encontre un PARENIZQ Linea: 38 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 38 columna 15
+Encontre puntoycoma Linea: 38 columna 16
+Encontre un LLAVEDER Linea: 39 columna 2
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 43 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MAYOR Linea: 43 columna 17
+Encontre un ENTERO  Linea: 43 columna 18
+Encontre puntoycoma Linea: 43 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 44 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre un MENOR Linea: 44 columna 17
+Encontre un ENTERO  Linea: 44 columna 18
+Encontre puntoycoma Linea: 44 columna 20
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 45 columna 11
+Encontre un IDENTIFICADOR temp
+Encontre negacion Linea: 45 columna 17
+Encontre un ASIGNA Linea: 45 columna 18
+Encontre un ENTERO  Linea: 45 columna 19
+Encontre puntoycoma Linea: 45 columna 21
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 47 columna 9
+Encontre puntoycoma Linea: 47 columna 19
+Encontre un IDENTIFICADOR otravar
+Encontre un ASIGNA Linea: 49 columna 11
+Encontre un FLOAT  Linea: 49 columna 13
+Encontre puntoycoma Linea: 49 columna 23
+Encontre un KSTRING Linea: 51 columna 3
+Encontre un IDENTIFICADOR mivar
+Encontre un ASIGNA Linea: 51 columna 16
+Encontre un SUMA Linea: 51 columna 27
+Encontre un ENTERO  Linea: 51 columna 29
+Encontre puntoycoma Linea: 51 columna 30
+Encontre un IDENTIFICADOR unvalor
+Encontre un ASIGNA Linea: 53 columna 11
+Encontre negacion Linea: 53 columna 13
+Encontre un PARENIZQ Linea: 53 columna 14
+Encontre un IDENTIFICADOR onodfvf
+Encontre conjuncion Linea: 53 columna 23
+Encontre un FALSE Linea: 53 columna 26
+Encontre un PARENDER Linea: 53 columna 31
+Encontre puntoycoma Linea: 53 columna 32
+Encontre un tipo ENTERO Linea: 55 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 55 columna 14
+Encontre un FLOAT  Linea: 55 columna 15
+Encontre un DIVMODULAR Linea: 55 columna 21
+Encontre un ENTERO  Linea: 55 columna 23
+Encontre puntoycoma Linea: 55 columna 25
+Encontre un tipo ENTERO Linea: 57 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR numero
+Encontre un ASIGNA Linea: 57 columna 14
+Encontre un FLOAT  Linea: 57 columna 15
+Encontre un DIVISION Linea: 57 columna 21
+Encontre un ENTERO  Linea: 57 columna 24
+Encontre puntoycoma Linea: 57 columna 26
+Encontre un print Linea: 59 columna 3
+Encontre un PARENIZQ Linea: 59 columna 8
+Encontre un IDENTIFICADOR numero
+Encontre un PARENDER Linea: 59 columna 15
+Encontre puntoycoma Linea: 59 columna 16
+Encontre un tipo ENTERO Linea: 61 columna 3 Este es el ID del token: 5
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 61 columna 12
+Encontre un read Linea: 61 columna 14
+Encontre un PARENIZQ Linea: 61 columna 18
+Encontre un PARENDER Linea: 61 columna 19
+Encontre puntoycoma Linea: 61 columna 20
+Encontre un IDENTIFICADOR algo
+Encontre un ASIGNA Linea: 63 columna 8
+Encontre un IDENTIFICADOR algo
+Encontre un IGUAL Linea: 63 columna 15
+Encontre un IDENTIFICADOR algo
+Encontre un SIGNOPREGUNTA Linea: 63 columna 23
+Encontre un ENTERO  Linea: 63 columna 25
+Encontre un CONDTERNARIA Linea: 63 columna 31
+Encontre un ENTERO  Linea: 63 columna 33
+Encontre puntoycoma Linea: 63 columna 39
+Encontre un KFUNTION Linea: 66 columna 3
+Encontre un IDENTIFICADOR funcionpropia
+Encontre un PARENIZQ Linea: 66 columna 25
+Encontre un tipo ENTERO Linea: 66 columna 26 Este es el ID del token: 5
+Encontre un IDENTIFICADOR c
+Encontre un PARENDER Linea: 66 columna 31
+Encontre un LLAVEIZQ Linea: 66 columna 32
+Encontre un return Linea: 67 columna 4
+Encontre puntoycoma Linea: 67 columna 10
+Encontre un LLAVEDER Linea: 68 columna 3
+Encontre un KFUNTION Linea: 70 columna 3
+Encontre un IDENTIFICADOR otrafuncion
+Encontre un PARENIZQ Linea: 70 columna 23
+Encontre un tipo ENTERO Linea: 70 columna 24 Este es el ID del token: 5
+Encontre un IDENTIFICADOR bvn
+Encontre un PARENDER Linea: 70 columna 31
+Encontre un LLAVEIZQ Linea: 70 columna 32
+Encontre un return Linea: 71 columna 4
+Encontre un IDENTIFICADOR fsdfsdfd
+Encontre puntoycoma Linea: 71 columna 19
+Encontre un LLAVEDER Linea: 72 columna 3
+Encontre un return Linea: 74 columna 3
+Encontre un IDENTIFICADOR fgsfsfgdfvdf
+Encontre puntoycoma Linea: 74 columna 22
+Encontre un LLAVEDER Linea: 75 columna 1

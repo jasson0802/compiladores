@@ -14,7 +14,6 @@ import analizadores.Util;
 
 /*En la variable string se van a guardar los elementos que se encuentren entre comillas*/
 %{
-    //Código de usuario
     String cadena= "";
 %}
 
@@ -84,7 +83,6 @@ SALTOLINEA = \r|\n|\r\n
 ESPACIO   = [\ \r\t\f\t]
 ENTER   = [\ \n]
 
-
 FLOAT = ( [-] ?  [ 0-9 ] + [.] [ 0-9 ] + )
 CARACTER = [a-z][A-Z]
 
@@ -104,9 +102,6 @@ DecIntegerLiteral = 0 | [1-9][0-9]*
 
 KEYWORDINT     = "int"
 CHAR1    = "char"
-PUB      = "public"
-PRI      = "private"
-VOI      = "void"
 PRINT    = "print"
 READ	 = "read"
 ELIF = "elif"
@@ -136,12 +131,8 @@ KEYWORDNOT="not"
 
 /*Seccion de reglas, aqui se especifica que hacer cuando se encuentra cada lexema*/
 
-
 <YYINITIAL> {KEYWORDINT}      { Util.WriteToken("Encontre un tipo ENTERO Linea: " + (yyline + 1) + " columna " + (yycolumn+1) + " Este es el ID del token: " + sym.KEYWORDINT); return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");}
 <YYINITIAL> {CHAR1}     { Util.WriteToken("Encontre un tipo CHAR1 Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.CHAR1, yyline, yycolumn,"char");}
-<YYINITIAL> {PUB}       { Util.WriteToken("Encontre un public Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.PUB, yyline, yycolumn,"public");}
-<YYINITIAL> {PRI}       { Util.WriteToken("Encontre un private Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.PRI, yyline, yycolumn,"private");}
-<YYINITIAL> {VOI}       { Util.WriteToken("Encontre un void Linea: " + (yyline + 1) + " columna " + yycolumn +" Token ID: " + sym.VOI); return new Symbol(sym.VOI, yyline, yycolumn,"void");}
 <YYINITIAL> {PRINT}     { Util.WriteToken("Encontre un print Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.PRINT, yyline, yycolumn,"print");}
 <YYINITIAL> {READ}     	{ Util.WriteToken("Encontre un read Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.READ, yyline, yycolumn,"read");}
 <YYINITIAL> {ELIF}     	{ Util.WriteToken("Encontre un elif Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.ELIF, yyline, yycolumn,"elif");}
@@ -201,24 +192,23 @@ KEYWORDNOT="not"
 
 <YYINITIAL> {FLOAT}    		{ Util.WriteToken("Encontre un FLOAT  Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.FLOAT, yyline, yycolumn,"float");}
 <YYINITIAL> {CARACTER}    		{ Util.WriteToken("Encontre un CARACTER  Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.CARACTER, yyline, yycolumn,"caracter");}
-    
+
+<YYINITIAL> [\"]        { yybegin(CADENA); cadena+="\""; }
+ 
  /*Esta definicion permite guardar cualquier cosa, cuando se inicia con comillas y se cierran*/
  
-<CADENA> {
-      \"                             { yybegin(YYINITIAL); 
-                                       return symbol(sym.CADENA, 
-                                       cadena.toString()); }
-      [^\n\r\"\\]+                   { cadena += yytext(); }
-      \\t                            { cadena += '\t'; }
-      \\n                            { cadena += '\n'; }
 
-      \\r                            { cadena += '\r'; }
-      \\\"                           { cadena += '\"'; }
-      \\                             { cadena += '\\'; }
+<CADENA> {
+        [\"] { String stringAcumulador=cadena+"\""; cadena=""; yybegin(YYINITIAL);  return new Symbol(sym.CADENA, yyline, yycolumn, stringAcumulador); }
+        [\n] {String stringAcumulador=cadena; cadena="";  
+                System.out.println("Se esperaba cierre de cadena (\")."); 
+                yybegin(YYINITIAL);
+            }
+        [^\"] { cadena+=yytext();}
 }
 
 /* Manejo de errores */
 <YYINITIAL> . {
-        String errLex = "Error léxico : '"+yytext()+"' en la línea: "+(yyline+1)+" y columna: "+(yycolumn+1);
+        String errLex = "----> Error lexico! : '"+yytext()+"' en la linea: "+(yyline+1)+" y columna: "+(yycolumn+1);
         Util.WriteToken(errLex);
 }

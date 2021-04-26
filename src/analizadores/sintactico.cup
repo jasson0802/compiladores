@@ -7,11 +7,11 @@ parser code
 {://Codigo visible
     
     public void syntax_error(Symbol s){
-        System.out.println("Error R de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+        System.out.println("---->  Error de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
     }
 
     public void unrecovered_syntax_error(Symbol s) throws java.lang.Exception{ 
-        System.out.println("Error NR de sintaxis: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
+        System.out.println("---->  Error fatal. La sintaxis es invalida: "+ s.value +" Linea "+(s.left+1)+" columna "+(s.right+1) );
     }
 
 :}
@@ -78,7 +78,7 @@ tipo ::=
     ;
 
 literal ::= 
-    numero | string | boolean | KEYWORDNULL
+    numero | CADENA | boolean | KEYWORDNULL
     ;
     
 numero ::=
@@ -133,12 +133,15 @@ operadorLogico ::=
 declaraExp ::= tipo IDENTIFICADOR PUNTOYCOMA;
 
 asignacionIden ::= IDENTIFICADOR ASIGNA expresion | 
-                   IDENTIFICADOR ASIGNA arregloestatico;
+                   IDENTIFICADOR ASIGNA arregloestatico |
+                   error PUNTOYCOMA
+                   ;
 
 asignacreacexpre ::= 
      tipo asignacionIden PUNTOYCOMA
      |
      asignacionIden PUNTOYCOMA
+     | error PUNTOYCOMA
      ;
 
 instruccion ::= 
