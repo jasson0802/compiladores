@@ -25,20 +25,20 @@ terminal String IDENTIFICADOR,ENTERO,CADENA,KEYWORDINT,CHAR1,PUB,PRI,VOI, PRINT;
 terminal DISYUNCION,CONJUNCION,COMA,NEGACION,PUNTOYCOMA,ABRECORCHETE,CIERRACORCHETE,
         LLAVEIZQ,LLAVEDER,PARENIZQ,PARENDER,SUMA,RESTA,MULTIPLICACION,DIVISION ,POTENCIA,
         MODULO,MAYOR,MENOR,IGUAL ,ASIGNA,MAYOROIGUAL,MENOROIGUAL,DIVMODULAR,
-        CONDTERNARIA, VALIDTERNARIO, NUMERAL,FLOAT,CARACTER,ARRAY;
+        CONDTERNARIA, SIGNOPREGUNTA, NUMERAL,FLOAT,CARACTER, READ;
 
 terminal  IF, FOR, ELIF, ELSE, BREAK, RETURN, ABSTRACT,
-          COMILLA,DIGITOS,KEYWORDBOOLEAN, KEYWORDARRAY,
+          COMILLA,DIGITOS,KEYWORDBOOLEAN, KEYWORDARRAY, KEYWORDNOT,
           keywordInt, KEYWORDFUNCTION, KEYWORDMAIN, KEYWORDNULL, KEYWORDREAL, KEYWORDFLOAT, KEYWORDSTRING, TRUE, FALSE;
 
-nonterminal  inicio,tipo,main, bloquecodigo, parametros;
-nonterminal funcion,parametros_funcion,comentarioMul,comentarioLin,valoresFuncion,
+nonterminal  inicio,tipo,main, bloquecodigo, parametros, diferente;
+nonterminal funcion,parametros_funcion,valoresFuncion, string, operacionesArit,
             expLogica,expAritmetica,expRelacional,expresion,unarios,operadorRelacional,
             operadorLogico,operadorAritmetico,asignacreacexpre,instrucciones,parametrosList, 
-            parametro,literales,caracteres,literal,keyword,nulo,
-            arregloestatico,instruccionReturn,instruccionIf, instruccionElse, 
-            instruccionElif,instruccionFor,instruccionBreak,instruccion,
-            ejecutaFuncion, boolean, bloqueIf, valor;
+            parametro,literales,caracteres,literal,keyword, instruccionRead, operacionesLogicas,
+            arregloestatico,instruccionReturn,instruccionIf, instruccionElse, numero,
+            instruccionElif,instruccionFor,instruccion, declaraExp, forUpdate, expTernaria,
+            ejecutaFuncion, boolean, bloqueIf, valor, instruccionBreak, instruccionPrint, asignacionIden, expAritmeticaParen;
 
 
 //agregamos la precedencia
@@ -51,7 +51,7 @@ start with inicio;
 
 inicio ::= main
 				{:
-                    System.out.println("Su programa compila existosamente");
+                    System.out.println("La sintaxis de su programa es correcta");
                :}
 ;
 
@@ -70,15 +70,22 @@ parametro ::=
     ;
 
 parametrosList ::=
-    parametrosList COMA IDENTIFICADOR | IDENTIFICADOR 
+    parametrosList COMA valor | valor 
     ;   
 
 tipo ::= 
-    KEYWORDFLOAT | KEYWORDREAL | KEYWORDBOOLEAN| KEYWORDARRAY | KEYWORDINT
+    KEYWORDFLOAT | KEYWORDREAL | KEYWORDBOOLEAN| KEYWORDARRAY | KEYWORDINT | KEYWORDSTRING
     ;
 
 literal ::= 
-    ENTERO | FLOAT | CADENA | boolean 
+    numero | string | boolean | KEYWORDNULL
+    ;
+    
+numero ::=
+	ENTERO | RESTA ENTERO | FLOAT | RESTA FLOAT;    
+    
+diferente ::= 
+    NEGACION ASIGNA
     ;
 
 boolean ::=
@@ -107,63 +114,59 @@ funcion ::=
      KEYWORDFUNCTION IDENTIFICADOR parametros_funcion bloquecodigo
      ;
 
-comentarioMul ::= 
-     DIVISION MULTIPLICACION literales MULTIPLICACION DIVISION
-     ;
-
-comentarioLin ::= 
-     DIVISION DIVISION literales
-     ;
-
 string ::= 
     COMILLA caracteres COMILLA
     ;
 
 arregloestatico ::=
-    ABRECORCHETE literal parametrosList CIERRACORCHETE
-    ;
-
-
-nulo ::= 
-    KEYWORDNULL
+    ABRECORCHETE parametrosList CIERRACORCHETE
     ;
 
 operadorRelacional ::= 
-     MAYOR|MENOR|IGUAL|MAYOROIGUAL|MENOROIGUAL|NEGACION
+     MAYOR|MENOR|IGUAL|MAYOROIGUAL|MENOROIGUAL|diferente
      ;
 
 operadorLogico ::= 
      DISYUNCION | CONJUNCION
      ;
 
+declaraExp ::= tipo IDENTIFICADOR PUNTOYCOMA;
+
+asignacionIden ::= IDENTIFICADOR ASIGNA expresion | 
+                   IDENTIFICADOR ASIGNA arregloestatico;
+
 asignacreacexpre ::= 
-     tipo IDENTIFICADOR PUNTOYCOMA
+     tipo asignacionIden PUNTOYCOMA
      |
-     tipo IDENTIFICADOR ASIGNA (expresion | arregloestatico) PUNTOYCOMA
+     asignacionIden PUNTOYCOMA
      ;
 
 instruccion ::= 
-    (asignacreacexpre | instruccionReturn| instruccionIf | instruccionFor|
-    instruccionElse|instruccionElif | funcion)
+    (asignacreacexpre | instruccionReturn| instruccionIf | instruccionFor| instruccionRead |
+    instruccionElse|instruccionElif | instruccionBreak | funcion | instruccionPrint | declaraExp | unarios)
     ;
 
 bloquecodigo ::= 
     LLAVEIZQ instrucciones LLAVEDER
+    |
+    LLAVEIZQ LLAVEDER
     ;
 
 instrucciones ::=
-    instrucciones PUNTOYCOMA instruccion | instruccion
+    instrucciones instruccion | instruccion
     ;
 
 bloqueIf ::= 
-    PARENIZQ (expRelacional|expLogica) PARENDER bloquecodigo;
+    PARENIZQ expresion PARENDER bloquecodigo;
 
 instruccionIf ::= 
      IF bloqueIf
      ;
 
 instruccionReturn ::= 
-     RETURN (literal)
+     RETURN valor PUNTOYCOMA
+     |
+     RETURN PUNTOYCOMA
      ; 
 
 instruccionBreak ::= 
@@ -171,8 +174,15 @@ instruccionBreak ::=
      ;
 
 instruccionFor ::= 
-     FOR PARENIZQ asignacreacexpre PUNTOYCOMA expresion PARENDER bloquecodigo
+     FOR PARENIZQ asignacreacexpre expresion PUNTOYCOMA forUpdate PARENDER bloquecodigo
      ;
+     
+instruccionFuncion ::= 
+	KEYWORDFUNCTION PARENIZQ PARENDER bloquecodigo 
+    |
+    KEYWORDFUNCTION PARENIZQ parametros PARENDER bloquecodigo
+;
+
 
 instruccionElse ::= 
      ELSE bloquecodigo
@@ -182,23 +192,34 @@ instruccionElif ::=
      ELIF bloqueIf
      ;
 
+instruccionPrint ::=
+    PRINT PARENIZQ valor PARENDER PUNTOYCOMA;
+    
+instruccionRead ::=
+    IDENTIFICADOR ASIGNA READ PARENIZQ PARENDER PUNTOYCOMA
+    |
+	tipo IDENTIFICADOR ASIGNA READ PARENIZQ PARENDER PUNTOYCOMA;
+
 expresion ::= 
-     expAritmetica | expRelacional | expLogica | ejecutaFuncion
+     expAritmetica | expRelacional | expLogica | ejecutaFuncion | expTernaria
      ;
 
 operadorAritmetico::=
-    SUMA|RESTA|MULTIPLICACION|DIVISION|MODULO
+    SUMA|RESTA|MULTIPLICACION|DIVMODULAR|MODULO|DIVISION
     ;
 
 expAritmetica ::= 
      valor
      operadorAritmetico 
-     valor 
-     ; 
-
-expAritmetica ::= 
+     operacionesArit
+     |
      PARENIZQ expAritmetica PARENDER
      ;
+     
+operacionesArit ::= 
+    operacionesArit operadorAritmetico valor | valor 
+    ; 
+
 
 expRelacional ::= 
       valor operadorRelacional valor
@@ -211,9 +232,14 @@ expRelacional ::=
 expLogica ::= 
      valor
      operadorLogico
-     valor
-     | boolean
+     operacionesLogicas
+     | literal
+     | IDENTIFICADOR
      ;
+     
+operacionesLogicas ::= 
+    operacionesLogicas operadorLogico valor | valor 
+    ; 
 
 expLogica ::= 
     PARENIZQ expLogica PARENDER
@@ -222,9 +248,14 @@ expLogica ::=
 expLogica ::= 
     NEGACION expLogica
     ;
+    
+expTernaria ::=
+	expresion SIGNOPREGUNTA valor CONDTERNARIA valor;
 
 ejecutaFuncion ::= 
      IDENTIFICADOR PARENIZQ valoresFuncion  PARENDER
+     |
+     IDENTIFICADOR PARENIZQ  PARENDER
      ;
 
 valor ::= 
@@ -237,7 +268,13 @@ valoresFuncion ::=
      ;
 
 unarios ::=
-     literal SUMA SUMA |
-     literal RESTA RESTA |
-     NEGACION boolean 
+     SUMA SUMA IDENTIFICADOR PUNTOYCOMA |
+     RESTA RESTA IDENTIFICADOR PUNTOYCOMA |
+     NEGACION boolean PUNTOYCOMA	|
+     (NEGACION | KEYWORDNOT) IDENTIFICADOR PUNTOYCOMA
      ;
+     
+
+forUpdate ::=
+     SUMA SUMA IDENTIFICADOR |
+     RESTA RESTA IDENTIFICADOR;

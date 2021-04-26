@@ -1,19 +1,77 @@
-int main () {
+int main (int miparam) {
+	#holamundo p12312
+	
 	int temp = 12 * residuo(45);
+	hola = 50;
+	++ndfvdfv;
 	if (temp == 12) {
-		temp = read() - --temp;
+		temp = read();
 		break;
-		}
-	else:
-	{ 
-		temp = temp>12 ? residuo(45)**2 : --temp;
 	}
-	string miString = “2”;
-	boolean miBool = 2 >= 7;
-	int numero = 45.5 // (34.0 ~ 4.0);
-	print(numero);
+	elif (temp == 12) {
+		temp = read();
+		break;
+	}
+	else
+	{
+		array abc = [123, 2522, unacuestion, "algomas"];
+		
+	}
+	
+	boolean algo = 12312 <= 12312.12313;
+	boolean algo = mifuncion() != 12312.12313;
+	boolean algo = 12312 == 12312.12313;
+	
+	boolean dfvdfvdfv = null;
+	for(int valor=10;valor<20;--valor) {
+		int numero = 45.5 / getValue();
+		#int numero = 45.5 / variable;
+		int numero = 12312312;
+		
+		boolean istrue = vpsppoa && vkndofv && nonofv;
+		
+		boolean istrue = true;
+		
+		unvalor = !(onodfvf && false);
+		
+		print(numero);
+	}
+	
+		#int temp = (25 - 23564) + nodvnf;
+		
+		unvalor = temp>12;
+		unvalor = temp<12;
+		unvalor = temp!=12;
+		
+		mivar = "vdfvdf";
+		
+		otravar = -25.132165;
+		
+		string mivar = "vdfvdf" + 3;
+		
+		unvalor = !(onodfvf && false);
+		
+		int numero = 45.5 / 25;
+		
+		int numero = 45.5 // 25;
+		
+		print(numero);
+		
+		int algo = read();
+		
+		algo = algo == algo ? 123123: 234234;
+		
+		
+		function funcionpropia(int c){
+			return;
+		}
+		
+		function otrafuncion(int bvn){
+			return fsdfsdfd;
+		}
+		
+		return fgsfsfgdfvdf;
 }
 
-int residuo (int num){
-	return num + 10 * num;
-}
+#Mejoras: strings con espacios
+#Hace falta: operaciones con parentesis

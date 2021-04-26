@@ -347,16 +347,16 @@ public class scanner implements java_cup.runtime.Scanner {
     "\1\7\1\1\1\10\1\11\1\12\1\13\1\14\1\15"+
     "\1\16\1\17\1\20\1\21\1\22\1\23\1\24\1\25"+
     "\15\7\1\26\1\27\1\30\1\1\1\31\1\32\1\33"+
-    "\1\34\1\35\2\0\1\36\1\37\1\40\1\41\1\42"+
-    "\1\43\11\7\1\44\11\7\1\45\1\46\1\47\1\50"+
-    "\1\51\1\52\10\7\1\53\1\7\1\54\14\7\1\55"+
-    "\1\56\1\57\3\7\1\60\1\61\3\7\1\62\2\7"+
-    "\1\63\1\64\1\65\1\7\1\66\1\67\1\70\1\7"+
-    "\1\71\7\7\1\72\1\73\1\74\1\75\1\7\1\76"+
-    "\1\77";
+    "\1\34\1\35\2\0\3\36\1\37\1\40\1\0\1\41"+
+    "\1\42\1\43\1\44\11\7\1\45\11\7\1\46\1\47"+
+    "\1\50\1\51\1\52\1\53\2\0\10\7\1\54\1\7"+
+    "\1\55\11\7\1\0\3\7\1\56\1\57\1\60\3\7"+
+    "\1\61\1\62\3\7\1\63\1\64\2\7\1\65\1\66"+
+    "\1\67\1\7\1\70\1\71\1\72\1\7\1\73\7\7"+
+    "\1\74\1\75\1\76\1\77\1\7\1\100\1\101";
 
   private static int [] zzUnpackAction() {
-    int [] result = new int[140];
+    int [] result = new int[148];
     int offset = 0;
     offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
     return result;
@@ -382,26 +382,27 @@ public class scanner implements java_cup.runtime.Scanner {
 
   private static final String ZZ_ROWMAP_PACKED_0 =
     "\0\0\0\70\0\160\0\160\0\160\0\160\0\250\0\160"+
-    "\0\160\0\340\0\u0118\0\160\0\160\0\u0150\0\160\0\160"+
-    "\0\u0188\0\u01c0\0\u01f8\0\160\0\160\0\u0230\0\u0268\0\u02a0"+
-    "\0\160\0\u02d8\0\u0310\0\u0348\0\u0380\0\u03b8\0\u03f0\0\u0428"+
-    "\0\u0460\0\u0498\0\u04d0\0\u0508\0\u0540\0\u0578\0\160\0\160"+
-    "\0\160\0\u05b0\0\160\0\160\0\u05e8\0\160\0\u0620\0\250"+
-    "\0\u0658\0\160\0\160\0\160\0\160\0\160\0\160\0\u0690"+
-    "\0\u06c8\0\u0700\0\u0738\0\u0770\0\u07a8\0\u07e0\0\u0818\0\u0850"+
-    "\0\340\0\u0888\0\u08c0\0\u08f8\0\u0930\0\u0968\0\u09a0\0\u09d8"+
-    "\0\u0a10\0\u0a48\0\160\0\160\0\160\0\160\0\160\0\u0658"+
-    "\0\u0a80\0\u0ab8\0\u0af0\0\u0b28\0\u0b60\0\u0b98\0\u0bd0\0\u0c08"+
-    "\0\340\0\u0c40\0\340\0\u0c78\0\u0cb0\0\u0ce8\0\u0d20\0\u0d58"+
-    "\0\u0d90\0\u0dc8\0\u0e00\0\u0e38\0\u0e70\0\u0ea8\0\u0ee0\0\340"+
-    "\0\340\0\340\0\u0f18\0\u0f50\0\u0f88\0\340\0\340\0\u0fc0"+
-    "\0\u0ff8\0\u1030\0\340\0\u1068\0\u10a0\0\340\0\340\0\340"+
-    "\0\u10d8\0\340\0\340\0\340\0\u1110\0\340\0\u1148\0\u1180"+
-    "\0\u11b8\0\u11f0\0\u1228\0\u1260\0\u1298\0\340\0\340\0\340"+
-    "\0\340\0\u12d0\0\340\0\340";
+    "\0\340\0\u0118\0\u0150\0\160\0\160\0\u0188\0\160\0\160"+
+    "\0\u01c0\0\u01f8\0\u0230\0\160\0\160\0\u0268\0\u02a0\0\u02d8"+
+    "\0\160\0\u0310\0\u0348\0\u0380\0\u03b8\0\u03f0\0\u0428\0\u0460"+
+    "\0\u0498\0\u04d0\0\u0508\0\u0540\0\u0578\0\u05b0\0\160\0\160"+
+    "\0\160\0\u05e8\0\160\0\160\0\u0620\0\160\0\u0658\0\250"+
+    "\0\u0690\0\340\0\160\0\u06c8\0\160\0\160\0\u0700\0\160"+
+    "\0\160\0\160\0\160\0\u0738\0\u0770\0\u07a8\0\u07e0\0\u0818"+
+    "\0\u0850\0\u0888\0\u08c0\0\u08f8\0\u0118\0\u0930\0\u0968\0\u09a0"+
+    "\0\u09d8\0\u0a10\0\u0a48\0\u0a80\0\u0ab8\0\u0af0\0\160\0\160"+
+    "\0\160\0\160\0\160\0\u0690\0\u0b28\0\u0b60\0\u0b98\0\u0bd0"+
+    "\0\u0c08\0\u0c40\0\u0c78\0\u0cb0\0\u0ce8\0\u0d20\0\u0118\0\u0d58"+
+    "\0\u0118\0\u0d90\0\u0dc8\0\u0e00\0\u0e38\0\u0e70\0\u0ea8\0\u0ee0"+
+    "\0\u0f18\0\u0f50\0\u0f88\0\u0fc0\0\u0ff8\0\u1030\0\u0118\0\u0118"+
+    "\0\u0118\0\u1068\0\u10a0\0\u10d8\0\u0118\0\u0118\0\u1110\0\u1148"+
+    "\0\u1180\0\u0118\0\u0118\0\u11b8\0\u11f0\0\u0118\0\u0118\0\u0118"+
+    "\0\u1228\0\u0118\0\u0118\0\u0118\0\u1260\0\u0118\0\u1298\0\u12d0"+
+    "\0\u1308\0\u1340\0\u1378\0\u13b0\0\u13e8\0\u0118\0\u0118\0\u0118"+
+    "\0\u0118\0\u1420\0\u0118\0\u0118";
 
   private static int [] zzUnpackRowMap() {
-    int [] result = new int[140];
+    int [] result = new int[148];
     int offset = 0;
     offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
     return result;
@@ -432,106 +433,110 @@ public class scanner implements java_cup.runtime.Scanner {
     "\1\43\1\44\1\45\1\12\1\46\1\12\1\47\1\3"+
     "\1\50\1\51\1\52\1\53\1\54\1\6\2\55\1\6"+
     "\1\55\1\6\3\55\1\56\50\55\1\57\6\55\76\0"+
-    "\1\60\13\0\1\61\1\0\1\60\43\0\1\12\11\0"+
-    "\1\12\11\0\1\12\6\0\25\12\7\0\1\12\13\0"+
-    "\1\62\72\0\1\63\57\0\1\60\15\0\1\60\66\0"+
-    "\1\64\52\0\1\60\13\0\1\61\1\0\1\23\73\0"+
-    "\1\65\67\0\1\66\67\0\1\67\37\0\1\12\11\0"+
-    "\1\12\11\0\1\12\6\0\17\12\1\70\5\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\15\12\1\71"+
-    "\1\12\1\72\5\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\7\12\1\73\15\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\12\12\1\74\12\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\1\75\11\12"+
-    "\1\76\2\12\1\77\4\12\1\100\2\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\5\12\1\101\6\12"+
-    "\1\102\10\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\1\103\24\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\22\12\1\104\2\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\17\12\1\105\2\12\1\106"+
-    "\2\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\4\12\1\107\20\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\21\12\1\110\3\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\17\12\1\111\5\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\15\12\1\112"+
-    "\7\12\7\0\1\12\64\0\1\113\3\0\2\55\1\0"+
-    "\1\55\1\0\3\55\1\0\50\55\1\0\6\55\10\0"+
-    "\1\114\36\0\1\115\2\0\1\116\1\0\1\117\21\0"+
-    "\1\120\15\0\1\120\43\0\1\12\11\0\1\12\11\0"+
-    "\1\12\6\0\17\12\1\121\5\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\15\12\1\122\7\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\4\12\1\123"+
-    "\20\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\1\124\24\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\10\12\1\125\7\12\1\126\4\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\12\12\1\127\12\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\15\12"+
-    "\1\130\7\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\17\12\1\131\5\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\14\12\1\132\10\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\21\12\1\133\3\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\10\12"+
-    "\1\134\14\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\12\12\1\135\12\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\10\12\1\136\14\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\1\12\1\137\23\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\1\140"+
-    "\20\12\1\141\3\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\17\12\1\142\5\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\22\12\1\143\2\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\10\12\1\144"+
-    "\14\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\1\145\24\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\12\12\1\146\12\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\1\147\24\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\17\12\1\150\5\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\5\12\1\151"+
-    "\17\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\4\12\1\152\20\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\20\12\1\153\4\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\1\154\24\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\2\12\1\155\22\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\14\12"+
-    "\1\156\10\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\12\12\1\157\12\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\14\12\1\160\6\12\1\161\1\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\12\12"+
-    "\1\162\12\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\12\12\1\163\12\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\22\12\1\164\2\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\10\12\1\165\14\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\4\12"+
-    "\1\166\20\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\3\12\1\167\21\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\24\12\1\170\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\4\12\1\171\20\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\11\12\1\172"+
-    "\13\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\4\12\1\173\20\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\21\12\1\174\3\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\21\12\1\175\3\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\21\12\1\176"+
-    "\3\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\1\177\24\12\7\0\2\12\11\0\1\12\11\0\1\12"+
-    "\6\0\10\12\1\200\14\12\7\0\2\12\11\0\1\12"+
-    "\11\0\1\12\6\0\17\12\1\201\5\12\7\0\2\12"+
-    "\11\0\1\12\11\0\1\12\6\0\14\12\1\202\10\12"+
-    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\1\203"+
-    "\24\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\10\12\1\204\14\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\21\12\1\205\3\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\2\12\1\206\22\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\14\12\1\207"+
+    "\1\60\13\0\1\61\1\0\1\60\43\0\2\62\1\63"+
+    "\1\62\1\64\63\62\1\12\11\0\1\12\11\0\1\12"+
+    "\6\0\25\12\7\0\1\12\13\0\1\65\72\0\1\66"+
+    "\57\0\1\60\15\0\1\60\61\0\1\67\4\0\1\70"+
+    "\52\0\1\60\13\0\1\61\1\0\1\23\73\0\1\71"+
+    "\67\0\1\72\67\0\1\73\37\0\1\12\11\0\1\12"+
+    "\11\0\1\12\6\0\17\12\1\74\5\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\15\12\1\75\1\12"+
+    "\1\76\5\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\7\12\1\77\15\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\12\12\1\100\12\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\1\101\11\12\1\102"+
+    "\2\12\1\103\4\12\1\104\2\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\5\12\1\105\6\12\1\106"+
     "\10\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\6\12\1\210\16\12\7\0\2\12\11\0\1\12\11\0"+
-    "\1\12\6\0\14\12\1\211\10\12\7\0\2\12\11\0"+
-    "\1\12\11\0\1\12\6\0\15\12\1\212\7\12\7\0"+
-    "\2\12\11\0\1\12\11\0\1\12\6\0\4\12\1\213"+
+    "\1\107\24\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\22\12\1\110\2\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\17\12\1\111\2\12\1\112\2\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\4\12"+
+    "\1\113\20\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\21\12\1\114\3\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\17\12\1\115\5\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\15\12\1\116\7\12"+
+    "\7\0\1\12\64\0\1\117\3\0\2\55\1\0\1\55"+
+    "\1\0\3\55\1\0\50\55\1\0\6\55\10\0\1\120"+
+    "\36\0\1\121\2\0\1\122\1\0\1\123\21\0\1\124"+
+    "\15\0\1\124\45\0\1\63\65\0\16\125\1\126\51\125"+
+    "\1\12\11\0\1\12\11\0\1\12\6\0\17\12\1\127"+
+    "\5\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
+    "\15\12\1\130\7\12\7\0\2\12\11\0\1\12\11\0"+
+    "\1\12\6\0\4\12\1\131\20\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\1\132\24\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\10\12\1\133\7\12"+
+    "\1\134\4\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\12\12\1\135\12\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\15\12\1\136\7\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\17\12\1\137\5\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\14\12"+
+    "\1\140\10\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\21\12\1\141\3\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\10\12\1\142\14\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\12\12\1\143\12\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\10\12"+
+    "\1\144\14\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\1\12\1\145\23\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\1\146\20\12\1\147\3\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\17\12\1\150"+
+    "\5\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
+    "\22\12\1\151\2\12\7\0\2\12\11\0\1\12\11\0"+
+    "\1\12\6\0\10\12\1\152\14\12\7\0\1\12\16\125"+
+    "\1\153\51\125\16\0\1\126\4\0\1\63\44\0\1\12"+
+    "\11\0\1\12\11\0\1\12\6\0\1\154\24\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\12\12\1\155"+
+    "\12\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
+    "\1\156\24\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\17\12\1\157\5\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\5\12\1\160\17\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\4\12\1\161\20\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\20\12"+
+    "\1\162\4\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\1\163\24\12\7\0\2\12\11\0\1\12\11\0"+
+    "\1\12\6\0\2\12\1\164\22\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\14\12\1\165\10\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\12\12\1\166"+
+    "\12\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
+    "\14\12\1\167\6\12\1\170\1\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\12\12\1\171\12\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\3\12\1\172"+
+    "\6\12\1\173\12\12\7\0\2\12\11\0\1\12\11\0"+
+    "\1\12\6\0\22\12\1\174\2\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\10\12\1\175\14\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\4\12\1\176"+
     "\20\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
-    "\14\12\1\214\10\12\7\0\1\12";
+    "\3\12\1\177\21\12\7\0\1\12\16\125\1\153\4\125"+
+    "\1\63\44\125\1\12\11\0\1\12\11\0\1\12\6\0"+
+    "\24\12\1\200\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\4\12\1\201\20\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\11\12\1\202\13\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\4\12\1\203\20\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\21\12"+
+    "\1\204\3\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\21\12\1\205\3\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\21\12\1\206\3\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\1\207\24\12\7\0"+
+    "\2\12\11\0\1\12\11\0\1\12\6\0\10\12\1\210"+
+    "\14\12\7\0\2\12\11\0\1\12\11\0\1\12\6\0"+
+    "\17\12\1\211\5\12\7\0\2\12\11\0\1\12\11\0"+
+    "\1\12\6\0\14\12\1\212\10\12\7\0\2\12\11\0"+
+    "\1\12\11\0\1\12\6\0\1\213\24\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\10\12\1\214\14\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\21\12"+
+    "\1\215\3\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\2\12\1\216\22\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\14\12\1\217\10\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\6\12\1\220\16\12"+
+    "\7\0\2\12\11\0\1\12\11\0\1\12\6\0\14\12"+
+    "\1\221\10\12\7\0\2\12\11\0\1\12\11\0\1\12"+
+    "\6\0\15\12\1\222\7\12\7\0\2\12\11\0\1\12"+
+    "\11\0\1\12\6\0\4\12\1\223\20\12\7\0\2\12"+
+    "\11\0\1\12\11\0\1\12\6\0\14\12\1\224\10\12"+
+    "\7\0\1\12";
 
   private static int [] zzUnpackTrans() {
-    int [] result = new int[4872];
+    int [] result = new int[5208];
     int offset = 0;
     offset = zzUnpackTrans(ZZ_TRANS_PACKED_0, offset, result);
     return result;
@@ -574,12 +579,14 @@ public class scanner implements java_cup.runtime.Scanner {
   private static final int [] ZZ_ATTRIBUTE = zzUnpackAttribute();
 
   private static final String ZZ_ATTRIBUTE_PACKED_0 =
-    "\2\0\4\11\1\1\2\11\2\1\2\11\1\1\2\11"+
+    "\2\0\4\11\1\1\1\11\3\1\2\11\1\1\2\11"+
     "\3\1\2\11\3\1\1\11\15\1\3\11\1\1\2\11"+
-    "\1\1\1\11\1\1\2\0\6\11\23\1\5\11\75\1";
+    "\1\1\1\11\1\1\2\0\1\1\1\11\1\1\2\11"+
+    "\1\0\4\11\23\1\5\11\1\1\2\0\24\1\1\0"+
+    "\51\1";
 
   private static int [] zzUnpackAttribute() {
-    int [] result = new int[140];
+    int [] result = new int[148];
     int offset = 0;
     offset = zzUnpackAttribute(ZZ_ATTRIBUTE_PACKED_0, offset, result);
     return result;
@@ -658,7 +665,7 @@ public class scanner implements java_cup.runtime.Scanner {
   /* user code: */
     //Código de usuario
     String cadena= "";
-	StringBuffer string = new StringBuffer();
+	//StringBuffer string = new StringBuffer();
 
 	private Symbol symbol(int type) {
 		return new Symbol(type);
@@ -1079,319 +1086,329 @@ public class scanner implements java_cup.runtime.Scanner {
         Util.WriteToken(errLex);
             }
             // fall through
-          case 64: break;
+          case 66: break;
           case 2:
             { /*Espacios en blanco, ignorados*/
             }
             // fall through
-          case 65: break;
+          case 67: break;
           case 3:
             { /*Saltos de linea, ignorados*/
             }
             // fall through
-          case 66: break;
+          case 68: break;
           case 4:
             { System.out.print(yytext());
             }
             // fall through
-          case 67: break;
-          case 5:
-            { Util.WriteToken("Encontre negacion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.NEGACION, yyline, yycolumn,"negacion");
-            }
-            // fall through
-          case 68: break;
-          case 6:
-            { Util.WriteToken("Encontre un NUMERAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.NUMERAL, yyline, yycolumn,"numeral");
-            }
-            // fall through
           case 69: break;
+          case 5:
+            { Util.WriteToken("Encontre negacion Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.NEGACION, yyline, yycolumn,"negacion");
+            }
+            // fall through
+          case 70: break;
+          case 6:
+            { Util.WriteToken("Encontre un NUMERAL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.NUMERAL, yyline, yycolumn,"numeral");
+            }
+            // fall through
+          case 71: break;
           case 7:
             { Util.WriteToken("Encontre un IDENTIFICADOR " + yytext()); return new Symbol(sym.IDENTIFICADOR, yyline, yycolumn,"identificador");
             }
             // fall through
-          case 70: break;
-          case 8:
-            { Util.WriteToken("Encontre un PARENIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENIZQ, yyline, yycolumn,"parenizq");
-            }
-            // fall through
-          case 71: break;
-          case 9:
-            { Util.WriteToken("Encontre un PARENDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PARENDER, yyline, yycolumn,"parender");
-            }
-            // fall through
           case 72: break;
-          case 10:
-            { Util.WriteToken("Encontre un MULTIPLICACION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MULTIPLICACION, yyline, yycolumn,"multiplicacion");
+          case 8:
+            { Util.WriteToken("Encontre un PARENIZQ Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.PARENIZQ, yyline, yycolumn,"parenizq");
             }
             // fall through
           case 73: break;
-          case 11:
-            { Util.WriteToken("Encontre un SUMA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.SUMA, yyline, yycolumn,"suma");
+          case 9:
+            { Util.WriteToken("Encontre un PARENDER Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.PARENDER, yyline, yycolumn,"parender");
             }
             // fall through
           case 74: break;
-          case 12:
-            { Util.WriteToken("Encontre coma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.COMA, yyline, yycolumn,"coma");
+          case 10:
+            { Util.WriteToken("Encontre un MULTIPLICACION Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MULTIPLICACION, yyline, yycolumn,"multiplicacion");
             }
             // fall through
           case 75: break;
-          case 13:
-            { Util.WriteToken("Encontre un RESTA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RESTA, yyline, yycolumn,"resta");
+          case 11:
+            { Util.WriteToken("Encontre un SUMA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.SUMA, yyline, yycolumn,"suma");
             }
             // fall through
           case 76: break;
-          case 14:
-            { Util.WriteToken("Encontre un DIVMODULAR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DIVMODULAR, yyline, yycolumn,"divmodular");
+          case 12:
+            { Util.WriteToken("Encontre coma Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.COMA, yyline, yycolumn,"coma");
             }
             // fall through
           case 77: break;
-          case 15:
-            { Util.WriteToken("Encontre un ENTERO  Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.ENTERO, yyline, yycolumn,"entero");
+          case 13:
+            { Util.WriteToken("Encontre un RESTA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.RESTA, yyline, yycolumn,"resta");
             }
             // fall through
           case 78: break;
-          case 16:
-            { Util.WriteToken("Encontre un CONDTERNARIA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CONDTERNARIA, yyline, yycolumn,"condternaria");
+          case 14:
+            { Util.WriteToken("Encontre un DIVMODULAR Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.DIVMODULAR, yyline, yycolumn,"divmodular");
             }
             // fall through
           case 79: break;
-          case 17:
-            { Util.WriteToken("Encontre puntoycoma Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PUNTOYCOMA, yyline, yycolumn,"puntoycoma");
+          case 15:
+            { Util.WriteToken("Encontre un ENTERO  Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.ENTERO, yyline, yycolumn,"entero");
             }
             // fall through
           case 80: break;
-          case 18:
-            { Util.WriteToken("Encontre un MENOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOR, yyline, yycolumn,"menor");
+          case 16:
+            { Util.WriteToken("Encontre un CONDTERNARIA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.CONDTERNARIA, yyline, yycolumn,"condternaria");
             }
             // fall through
           case 81: break;
-          case 19:
-            { Util.WriteToken("Encontre un ASIGNA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ASIGNA, yyline, yycolumn,"asigna");
+          case 17:
+            { Util.WriteToken("Encontre puntoycoma Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.PUNTOYCOMA, yyline, yycolumn,"puntoycoma");
             }
             // fall through
           case 82: break;
-          case 20:
-            { Util.WriteToken("Encontre un MAYOR Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOR, yyline, yycolumn,"mayor");
+          case 18:
+            { Util.WriteToken("Encontre un MENOR Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MENOR, yyline, yycolumn,"menor");
             }
             // fall through
           case 83: break;
-          case 21:
-            { Util.WriteToken("Encontre un VALIDTERNARIO Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.VALIDTERNARIO, yyline, yycolumn,"validternario");
+          case 19:
+            { Util.WriteToken("Encontre un ASIGNA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.ASIGNA, yyline, yycolumn,"asigna");
             }
             // fall through
           case 84: break;
-          case 22:
-            { Util.WriteToken("Encontre un ABRECORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ABRECORCHETE, yyline, yycolumn,"abrecorchete");
+          case 20:
+            { Util.WriteToken("Encontre un MAYOR Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MAYOR, yyline, yycolumn,"mayor");
             }
             // fall through
           case 85: break;
-          case 23:
-            { Util.WriteToken("Encontre un CIERRACORCHETE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CIERRACORCHETE, yyline, yycolumn,"cierracorchete");
+          case 21:
+            { Util.WriteToken("Encontre un SIGNOPREGUNTA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.SIGNOPREGUNTA, yyline, yycolumn,"signopregunta");
             }
             // fall through
           case 86: break;
-          case 24:
-            { Util.WriteToken("Encontre un LLAVEIZQ Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEIZQ, yyline, yycolumn,"llaveizq");
+          case 22:
+            { Util.WriteToken("Encontre un ABRECORCHETE Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.ABRECORCHETE, yyline, yycolumn,"abrecorchete");
             }
             // fall through
           case 87: break;
-          case 25:
-            { Util.WriteToken("Encontre un LLAVEDER Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.LLAVEDER, yyline, yycolumn,"llaveder");
+          case 23:
+            { Util.WriteToken("Encontre un CIERRACORCHETE Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.CIERRACORCHETE, yyline, yycolumn,"cierracorchete");
             }
             // fall through
           case 88: break;
-          case 26:
-            { Util.WriteToken("Encontre un MODULO Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MODULO, yyline, yycolumn,"modulo");
+          case 24:
+            { Util.WriteToken("Encontre un LLAVEIZQ Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.LLAVEIZQ, yyline, yycolumn,"llaveizq");
             }
             // fall through
           case 89: break;
+          case 25:
+            { Util.WriteToken("Encontre un LLAVEDER Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.LLAVEDER, yyline, yycolumn,"llaveder");
+            }
+            // fall through
+          case 90: break;
+          case 26:
+            { Util.WriteToken("Encontre un MODULO Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MODULO, yyline, yycolumn,"modulo");
+            }
+            // fall through
+          case 91: break;
           case 27:
             { cadena += yytext();
             }
             // fall through
-          case 90: break;
+          case 92: break;
           case 28:
             { yybegin(YYINITIAL); 
                                        return symbol(sym.CADENA, 
                                        cadena.toString());
             }
             // fall through
-          case 91: break;
+          case 93: break;
           case 29:
             { cadena += '\\';
             }
             // fall through
-          case 92: break;
-          case 30:
-            { Util.WriteToken("Encontre conjuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CONJUNCION, yyline, yycolumn,"conjuncion");
-            }
-            // fall through
-          case 93: break;
-          case 31:
-            { Util.WriteToken("Encontre un POTENCIA Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.POTENCIA, yyline, yycolumn,"potencia");
-            }
-            // fall through
           case 94: break;
-          case 32:
-            { Util.WriteToken("Encontre un DIVISION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DIVISION, yyline, yycolumn,"division");
+          case 30:
+            { /*COMENTARIOS IGNORADOS*/
             }
             // fall through
           case 95: break;
-          case 33:
-            { Util.WriteToken("Encontre un MENOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MENOROIGUAL, yyline, yycolumn,"menoroigual");
+          case 31:
+            { Util.WriteToken("Encontre conjuncion Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.CONJUNCION, yyline, yycolumn,"conjuncion");
             }
             // fall through
           case 96: break;
-          case 34:
-            { Util.WriteToken("Encontre un IGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IGUAL, yyline, yycolumn,"igual");
+          case 32:
+            { Util.WriteToken("Encontre un POTENCIA Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.POTENCIA, yyline, yycolumn,"potencia");
             }
             // fall through
           case 97: break;
-          case 35:
-            { Util.WriteToken("Encontre un MAYOROIGUAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.MAYOROIGUAL, yyline, yycolumn,"mayoroigual");
+          case 33:
+            { Util.WriteToken("Encontre un DIVISION Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.DIVISION, yyline, yycolumn,"division");
             }
             // fall through
           case 98: break;
-          case 36:
-            { Util.WriteToken("Encontre un if Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.IF, yyline, yycolumn,"if");
+          case 34:
+            { Util.WriteToken("Encontre un MENOROIGUAL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MENOROIGUAL, yyline, yycolumn,"menoroigual");
             }
             // fall through
           case 99: break;
-          case 37:
-            { Util.WriteToken("Encontre disyuncion Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.DISYUNCION, yyline, yycolumn,"diyuncion");
+          case 35:
+            { Util.WriteToken("Encontre un IGUAL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.IGUAL, yyline, yycolumn,"igual");
             }
             // fall through
           case 100: break;
-          case 38:
-            { cadena += '\"';
+          case 36:
+            { Util.WriteToken("Encontre un MAYOROIGUAL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.MAYOROIGUAL, yyline, yycolumn,"mayoroigual");
             }
             // fall through
           case 101: break;
-          case 39:
-            { cadena += '\n';
+          case 37:
+            { Util.WriteToken("Encontre un if Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.IF, yyline, yycolumn,"if");
             }
             // fall through
           case 102: break;
-          case 40:
-            { cadena += '\r';
+          case 38:
+            { Util.WriteToken("Encontre disyuncion Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.DISYUNCION, yyline, yycolumn,"diyuncion");
             }
             // fall through
           case 103: break;
-          case 41:
-            { cadena += '\t';
+          case 39:
+            { cadena += '\"';
             }
             // fall through
           case 104: break;
-          case 42:
-            { Util.WriteToken("Encontre un FLOAT  Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.FLOAT, yyline, yycolumn,"float");
+          case 40:
+            { cadena += '\n';
             }
             // fall through
           case 105: break;
-          case 43:
-            { Util.WriteToken("Encontre un for Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.FOR, yyline, yycolumn,"for");
+          case 41:
+            { cadena += '\r';
             }
             // fall through
           case 106: break;
-          case 44:
-            { Util.WriteToken("Encontre un tipo ENTERO Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");
+          case 42:
+            { cadena += '\t';
             }
             // fall through
           case 107: break;
-          case 45:
-            { Util.WriteToken("Encontre un tipo CHAR1 Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.CHAR1, yyline, yycolumn,"char");
+          case 43:
+            { Util.WriteToken("Encontre un FLOAT  Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.FLOAT, yyline, yycolumn,"float");
             }
             // fall through
           case 108: break;
-          case 46:
-            { Util.WriteToken("Encontre un elif Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELIF, yyline, yycolumn,"elif");
+          case 44:
+            { Util.WriteToken("Encontre un for Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.FOR, yyline, yycolumn,"for");
             }
             // fall through
           case 109: break;
-          case 47:
-            { Util.WriteToken("Encontre un else Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.ELSE, yyline, yycolumn,"else");
+          case 45:
+            { Util.WriteToken("Encontre un tipo ENTERO Linea: " + (yyline + 1) + " columna " + (yycolumn+1) + " Este es el ID del token: " + sym.KEYWORDINT); return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");
             }
             // fall through
           case 110: break;
-          case 48:
-            { Util.WriteToken("Encontre un Kmain Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDMAIN, yyline, yycolumn,"main");
+          case 46:
+            { Util.WriteToken("Encontre un tipo CHAR1 Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.CHAR1, yyline, yycolumn,"char");
             }
             // fall through
           case 111: break;
-          case 49:
-            { Util.WriteToken("Encontre un KNULL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDNULL, yyline, yycolumn,"null");
+          case 47:
+            { Util.WriteToken("Encontre un elif Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.ELIF, yyline, yycolumn,"elif");
             }
             // fall through
           case 112: break;
-          case 50:
-            { Util.WriteToken("Encontre un KREAL Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDREAL, yyline, yycolumn,"real");
+          case 48:
+            { Util.WriteToken("Encontre un else Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.ELSE, yyline, yycolumn,"else");
             }
             // fall through
           case 113: break;
-          case 51:
-            { Util.WriteToken("Encontre un TRUE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.TRUE, yyline, yycolumn,"true");
+          case 49:
+            { Util.WriteToken("Encontre un Kmain Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDMAIN, yyline, yycolumn,"main");
             }
             // fall through
           case 114: break;
-          case 52:
-            { Util.WriteToken("Encontre un void Linea: " + yyline + " columna " + yycolumn +" Token ID: " + sym.VOI); return new Symbol(sym.VOI, yyline, yycolumn,"void");
+          case 50:
+            { Util.WriteToken("Encontre un KNULL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDNULL, yyline, yycolumn,"null");
             }
             // fall through
           case 115: break;
-          case 53:
-            { Util.WriteToken("Encontre un Karray Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDARRAY, yyline, yycolumn,"array");
+          case 51:
+            { Util.WriteToken("Encontre un read Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.READ, yyline, yycolumn,"read");
             }
             // fall through
           case 116: break;
-          case 54:
-            { Util.WriteToken("Encontre un break Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.BREAK, yyline, yycolumn,"break");
+          case 52:
+            { Util.WriteToken("Encontre un KREAL Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDREAL, yyline, yycolumn,"real");
             }
             // fall through
           case 117: break;
-          case 55:
-            { Util.WriteToken("Encontre un FALSE Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.FALSE, yyline, yycolumn,"false");
+          case 53:
+            { Util.WriteToken("Encontre un TRUE Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.TRUE, yyline, yycolumn,"true");
             }
             // fall through
           case 118: break;
-          case 56:
-            { Util.WriteToken("Encontre un KFLOAT Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDFLOAT, yyline, yycolumn,"keywordfloat");
+          case 54:
+            { Util.WriteToken("Encontre un void Linea: " + (yyline + 1) + " columna " + yycolumn +" Token ID: " + sym.VOI); return new Symbol(sym.VOI, yyline, yycolumn,"void");
             }
             // fall through
           case 119: break;
-          case 57:
-            { Util.WriteToken("Encontre un print Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.PRINT, yyline, yycolumn,"print");
+          case 55:
+            { Util.WriteToken("Encontre un Karray Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDARRAY, yyline, yycolumn,"array");
             }
             // fall through
           case 120: break;
-          case 58:
-            { Util.WriteToken("Encontre un public Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PUB, yyline, yycolumn,"public");
+          case 56:
+            { Util.WriteToken("Encontre un break Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.BREAK, yyline, yycolumn,"break");
             }
             // fall through
           case 121: break;
-          case 59:
-            { Util.WriteToken("Encontre un return Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.RETURN, yyline, yycolumn,"return");
+          case 57:
+            { Util.WriteToken("Encontre un FALSE Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.FALSE, yyline, yycolumn,"false");
             }
             // fall through
           case 122: break;
-          case 60:
-            { Util.WriteToken("Encontre un KSTRING Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDSTRING, yyline, yycolumn,"string");
+          case 58:
+            { Util.WriteToken("Encontre un KFLOAT Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDFLOAT, yyline, yycolumn,"keywordfloat");
             }
             // fall through
           case 123: break;
-          case 61:
-            { Util.WriteToken("Encontre un KBOOLEAN Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDBOOLEAN, yyline, yycolumn,"boolean");
+          case 59:
+            { Util.WriteToken("Encontre un print Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.PRINT, yyline, yycolumn,"print");
             }
             // fall through
           case 124: break;
-          case 62:
-            { Util.WriteToken("Encontre un private Linea: " + yyline + " columna " + yycolumn); return new Symbol(sym.PRI, yyline, yycolumn,"private");
+          case 60:
+            { Util.WriteToken("Encontre un public Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.PUB, yyline, yycolumn,"public");
             }
             // fall through
           case 125: break;
-          case 63:
-            { Util.WriteToken("Encontre un KFUNTION Linea: " + yyline + " columna " + yycolumn);return new Symbol(sym.KEYWORDFUNCTION, yyline, yycolumn,"function");
+          case 61:
+            { Util.WriteToken("Encontre un return Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.RETURN, yyline, yycolumn,"return");
             }
             // fall through
           case 126: break;
+          case 62:
+            { Util.WriteToken("Encontre un KSTRING Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDSTRING, yyline, yycolumn,"string");
+            }
+            // fall through
+          case 127: break;
+          case 63:
+            { Util.WriteToken("Encontre un KBOOLEAN Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDBOOLEAN, yyline, yycolumn,"boolean");
+            }
+            // fall through
+          case 128: break;
+          case 64:
+            { Util.WriteToken("Encontre un private Linea: " + (yyline + 1) + " columna " + (yycolumn+1)); return new Symbol(sym.PRI, yyline, yycolumn,"private");
+            }
+            // fall through
+          case 129: break;
+          case 65:
+            { Util.WriteToken("Encontre un KFUNTION Linea: " + (yyline + 1) + " columna " + (yycolumn+1));return new Symbol(sym.KEYWORDFUNCTION, yyline, yycolumn,"function");
+            }
+            // fall through
+          case 130: break;
           default:
             zzScanError(ZZ_NO_MATCH);
         }

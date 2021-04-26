@@ -20,11 +20,11 @@ public class Main {
         try {
         	String entrada = Util.readFile("entrada.txt", StandardCharsets.UTF_8);           
             Util.setPrintWriterPath("salida.txt");
-        	System.out.println("Inicia el analisis...\n");
+        	System.out.println("Analisis lexico y sintactico\n");
             scanner scan = new scanner(new BufferedReader( new StringReader(entrada)));
             parser parser = new analizadores.parser(scan);
             parser.parse();
-            System.out.println("Finaliza el analisis...");
+            System.out.println("Finaliza analisis lexico y sintactico");
         } catch (Exception ex) {
             ex.printStackTrace();
         }
