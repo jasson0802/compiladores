@@ -131,8 +131,8 @@ KEYWORDNOT="not"
 
 /*Seccion de reglas, aqui se especifica que hacer cuando se encuentra cada lexema*/
 
-<YYINITIAL> {KEYWORDINT}{ Util.WriteToken("Encontre un tipo ENTERO Linea: " + (yyline + 1) + " columna " + (yycolumn+1) + " Este es el ID del token: " + sym.KEYWORDINT); 
-                        return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");}
+<YYINITIAL> {KEYWORDINT} { Util.WriteToken("Encontre un tipo ENTERO Linea: " + (yyline + 1) + " columna " + (yycolumn+1) + " Este es el ID del token: " + sym.KEYWORDINT); return new Symbol(sym.KEYWORDINT, yyline, yycolumn,"entero");}
+
 <YYINITIAL> {CHAR1}     { Util.WriteToken("Encontre un tipo CHAR1 Linea: " + (yyline + 1) + " columna " + (yycolumn+1)+ " Este es el ID del token: " + sym.CHAR1);
                         return new Symbol(sym.CHAR1, yyline, yycolumn,"char");}
 <YYINITIAL> {PRINT}     { Util.WriteToken("Encontre un print Linea: " + (yyline + 1) + " columna " + (yycolumn+1)+ " Este es el ID del token: " + sym.PRINT);

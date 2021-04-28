@@ -19,6 +19,8 @@ parser code
 action code
 {://Codigo de usuario
     String tmp="";
+    String contextoAnterior="main";
+    String contextoActual="main";
 :}
 
 terminal String IDENTIFICADOR,ENTERO,CADENA,KEYWORDINT,CHAR1,PUB,PRI,VOI, PRINT;
@@ -51,8 +53,8 @@ start with inicio;
 
 inicio ::= main
 				{:
-                    System.out.println("La sintaxis de su programa es correcta");
-               :}
+                    System.out.println("Fin de analisis sintactico");
+               	:}
 ;
 
 main ::= 
@@ -145,15 +147,27 @@ asignacreacexpre ::=
      ;
 
 instruccion ::= 
-    (asignacreacexpre | instruccionReturn| instruccionIf | instruccionFor| instruccionRead |
-    instruccionElse|instruccionElif | instruccionBreak | funcion | instruccionPrint | declaraExp | unarios)
+    (asignacreacexpre
+    
+    | instruccionReturn
+    | instruccionIf 
+    | instruccionFor
+    | instruccionRead 
+    |instruccionElse|instruccionElif | instruccionBreak 
+    | funcion
+   	| instruccionPrint
+   	| declaraExp
+   	| unarios)
     ;
 
 bloquecodigo ::= 
     LLAVEIZQ instrucciones LLAVEDER
+    {:
+        System.out.println("Contexto - bloquecodigo");
+    :}
     |
     LLAVEIZQ LLAVEDER
-    ;
+;
 
 instrucciones ::=
     instrucciones instruccion | instruccion
@@ -181,7 +195,8 @@ instruccionFor ::=
      ;
      
 instruccionFuncion ::= 
-	KEYWORDFUNCTION PARENIZQ PARENDER bloquecodigo 
+	KEYWORDFUNCTION PARENIZQ PARENDER bloquecodigo
+	     
     |
     KEYWORDFUNCTION PARENIZQ parametros PARENDER bloquecodigo
 ;
@@ -204,7 +219,7 @@ instruccionRead ::=
 	tipo IDENTIFICADOR ASIGNA READ PARENIZQ PARENDER PUNTOYCOMA;
 
 expresion ::= 
-     expAritmetica | expRelacional | expLogica | ejecutaFuncion | expTernaria
+     expAritmetica | expRelacional | expLogica | ejecutaFuncion | expTernaria | PARENIZQ expresion PARENDER
      ;
 
 operadorAritmetico::=
@@ -215,21 +230,16 @@ expAritmetica ::=
      valor
      operadorAritmetico 
      operacionesArit
-     |
-     PARENIZQ expAritmetica PARENDER
      ;
      
 operacionesArit ::= 
-    operacionesArit operadorAritmetico valor | valor 
+    operacionesArit operadorAritmetico valor| valor
+    |PARENIZQ operacionesArit PARENDER
     ; 
 
 
 expRelacional ::= 
       valor operadorRelacional valor
-     ;
-
-expRelacional ::= 
-     PARENIZQ expRelacional PARENDER
      ;
 
 expLogica ::= 
@@ -241,12 +251,8 @@ expLogica ::=
      ;
      
 operacionesLogicas ::= 
-    operacionesLogicas operadorLogico valor | valor 
+    operacionesLogicas operadorLogico valor | valor
     ; 
-
-expLogica ::= 
-    PARENIZQ expLogica PARENDER
-    ;
 
 expLogica ::= 
     NEGACION expLogica

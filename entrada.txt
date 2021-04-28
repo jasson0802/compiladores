@@ -1,12 +1,17 @@
 int main (int miparam) {
 	#holamundo p12312
 	
-	int 12312;
-	int variable = 12 * residuo(45);
-	hola = 50;
+	#int 12312;
+	int variable = 12 - temp;
+	
+	string myString = "2";
+	
+	boolean myboolean = 2>=7;
+	
+	int hola = 50;
 	++ndfvdfv;
 	if (temp == 12) {
-		temp = read();
+		int variable = 12 * (residuo(45) + 5);
 		break;
 	}
 	elif (temp == 12) {
@@ -17,6 +22,7 @@ int main (int miparam) {
 	{
 		array abc = [123, 2522, unacuestion, "algomas  dvsvsfvsf"];	
 	}
+	
 	
 	boolean algo = 12312 <= 12312.12313;
 	boolean algo = mifuncion() != 12312.12313;
@@ -31,8 +37,6 @@ int main (int miparam) {
 		boolean istrue = vpsppoa && vkndofv && nonofv;
 		
 		boolean istrue = true;
-		
-		unvalor = !(onodfvf && false);
 		
 		print(numero);
 	}
@@ -49,8 +53,6 @@ int main (int miparam) {
 		
 		string mivar = "vdfvdf" + 3;
 		
-		unvalor = !(onodfvf && false);
-		
 		int numero = 45.5 / 25;
 		
 		int numero = 45.5 // 25;
@@ -60,7 +62,6 @@ int main (int miparam) {
 		int algo = read();
 		
 		algo = algo == algo ? 123123: 234234;
-		
 		
 		function funcionpropia(int c){
 			return;
